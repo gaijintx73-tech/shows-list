@@ -1,0 +1,347 @@
+# Houston Shows List — sources
+# Every venue the builder checks lives here. To add a venue, copy a block
+# and change the values. To drop one, delete its block (or set type: none
+# to keep it on the list as a placeholder). The builder only reads this
+# file — no code changes needed.
+#
+# "type" tells the builder how to read the calendar:
+#   tribe        the venue site's own WordPress events calendar (API/iCal)
+#   mcgonigels   Mucky Duck's home-page show cards (embedded event data)
+#   heights      Heights Theater's home-page show list
+#   whiteoak     White Oak's home-page show list (TicketWeb cards)
+#   squarespace_pages  Squarespace venue whose shows are individual pages
+#   prekindle    a Prekindle venue events page
+#   eventbrite   an Eventbrite organizer or collection page
+#   ticketmaster matched out of the Ticketmaster city feed by venue name
+#   jsonld       a page that embeds machine-readable event data (schema.org)
+#   thundertix   a ThunderTix venue events page
+#   html         a plain server-rendered events page the builder can read
+#   dice         a DICE venue page (title + day-first date lines)
+#   warehouselive Warehouse Live's calendar list view (date line + title line)
+#   atg          an ATG Tickets listing (title / category / venue / date; Concert only)
+#   none         no usable machine-readable calendar (yet) — builder skips
+#                it and says so in the build report
+
+sources:
+  - name: McGonigel's Mucky Duck
+    venue: McGonigel's Mucky Duck
+    type: mcgonigels
+    url: https://www.mcgonigels.com/
+    note: "Upper Kirby listening room. Own site, own ticketing (Tessitura). Shows listed on the home page under /shows/."
+
+  - name: The Heights Theater
+    venue: The Heights Theater
+    type: heights
+    url: https://theheightstheater.com/
+    note: "Heights. The home page lists every show (weekday/day/month blocks); tickets via Prekindle promo links. The builder reads the venue's own list."
+
+  - name: White Oak Music Hall
+    venue: White Oak Music Hall
+    type: whiteoak
+    url: https://whiteoakmusichall.com/
+    note: "Near Northside. Three rooms (Upstairs, Downstairs, Lawn) listed as one venue. Shows are listed on the home page (TicketWeb cards); tickets via Ticketmaster."
+
+  - name: 713 Music Hall
+    venue: 713 Music Hall
+    type: ticketmaster
+    tm_venues: "713 Music Hall"
+    url: https://www.ticketmaster.com/713-music-hall-tickets-houston/venue/475334
+    note: "Downtown, inside POST Houston. Live Nation room; listings come from the Ticketmaster feed."
+
+  - name: The Secret Group
+    venue: The Secret Group
+    type: eventbrite
+    url: https://www.eventbrite.com/cc/concerts-140769
+    filter_music: true
+    note: "EaDo. Own site thesecretgrouphtx.com; tickets via Eventbrite. This is their concerts-only collection; the venue runs a lot of comedy too, so music filtering stays on."
+
+  - name: The Continental Club
+    venue: The Continental Club
+    type: jsonld
+    url: https://www.bandsintown.com/v/10002640-continental-club
+    note: "Midtown. Calendar is a Time.ly (Timely) embed; the venue's own page renders nothing as text and Time.ly's hosted calendar page renders descriptions without titles or dates as text, mixed with recurring happy-hour, movie and sports promos — not a clean pickup. The pickup is the Bandsintown venue page instead. Big Top Lounge next door is not covered by this block."
+
+  - name: Bad Astronaut Brewing
+    venue: Bad Astronaut Brewing
+    type: prekindle
+    url: https://www.prekindle.com/events/bad-astronaut-brewing-co
+    note: "Near Northside brewery/showroom (Pegstar Concerts). Own site badastronautbeer.com also lists shows; tickets via Prekindle."
+
+  - name: The End
+    venue: The End
+    type: jsonld
+    url: https://bandsintown.com/v/10274955-the-end
+    note: "East End DIY room. No venue-run calendar; the pickup is the Bandsintown venue page, which carries its shows as embedded event data. Note: other sources say the room moved next door (Ground Control) — Bandsintown still lists shows under The End, so verify the room name before publishing."
+
+  - name: Numbers
+    venue: Numbers
+    type: tribe
+    url: https://numbersnightclub.com
+    note: "Montrose. WordPress + The Events Calendar — the builder reads the calendar's own API (the site also offers an iCalendar export). Some DJ/dance nights included; they are music."
+
+  - name: Dan Electro's Guitar Bar
+    venue: Dan Electro's
+    type: squarespace_pages
+    url: https://danelectros.com/event-archive
+    link_marker: event-archive
+    note: "Heights bar with near-nightly live music. Squarespace site: each show is its own page under /event-archive, and every page has a machine-readable JSON view the builder reads. Mostly door cover."
+
+  - name: Rudyard's
+    venue: Rudyard's
+    type: eventbrite
+    url: https://www.eventbrite.com/o/the-club-at-rudz-121606546526
+    filter_music: true
+    note: "Montrose (The Club at Rudz). Tickets/calendar via Eventbrite. Programming skews comedy lately — music filtering on, expect fewer listings."
+
+  - name: Black Magic Social Club
+    venue: Black Magic Social Club
+    type: none
+    url: ""
+    note: "East End. No strong venue-run calendar found; its Bandsintown venue page renders no events as text, and shows are otherwise announced on socials (Oct 2026)."
+
+  - name: Wonky Power
+    venue: Wonky Power
+    type: dice
+    url: https://dice.fm/venue/wonky-power-g57ma
+    note: "East End. Own site lists no shows; the pickup is the DICE venue page, which renders its listings as text."
+
+  - name: Axelrad Beer Garden
+    venue: Axelrad
+    type: html
+    url: https://axelradhouston.com/music
+    note: "Midtown beer garden, mostly free local bills. Music page on its own site; ticketed one-offs via DICE."
+
+  - name: Trip Six HTX
+    venue: Trip Six
+    type: none
+    url: https://www.instagram.com/tripsixhtx/
+    note: "East End DIY warehouse space. No venue calendar; its Bandsintown page renders no events as text, and shows are otherwise announced on socials (Oct 2026)."
+
+  - name: 1810 Ojeman
+    venue: 1810 Ojeman
+    type: jsonld
+    url: https://www.bandsintown.com/v/10064089-eighteen-ten-ojeman
+    note: "Spring Branch DIY space. No venue-run calendar; the pickup is the Bandsintown venue page. The page text shows only the next few events, so this is a near-term feed rather than a full six-month one."
+
+  - name: White Swan Live
+    venue: White Swan Live
+    type: none
+    url: https://www.instagram.com/whiteswanlive/
+    note: "East End DIY spot on the underground circuit. No scrapeable venue calendar found; its Bandsintown page renders no events and its own site renders nothing as text (Oct 2026)."
+
+  - name: Moon Tower Inn
+    venue: Moon Tower Inn
+    type: none
+    url: https://www.instagram.com/moontowerinn/
+    note: "East End. Free shows on the underground circuit; no structured venue calendar found — own site lists no dated shows, Songkick shows 0 upcoming, and no Bandsintown venue page was found (Oct 2026)."
+
+  - name: BFE Rock Club
+    venue: BFE Rock Club
+    type: html
+    url: https://bferockclub.com/shows/
+    note: "NW Houston (Jersey Village fringe). Shows page on its own site; some ticketing via Eventbrite."
+
+  - name: Scout Bar
+    venue: Scout Bar
+    type: ticketmaster
+    tm_venues: "Scout Bar"
+    url: https://www.scoutbar.com/
+    note: "Clear Lake (suburban SE). Busy rock/metal room; most listings ride the Ticketmaster feed. Own site also keeps a calendar."
+
+  - name: Anderson Fair
+    venue: Anderson Fair
+    type: html
+    url: https://andersonfair.org/
+    note: "Montrose folk listening room, running since 1970. Seasonal schedule, roughly Thu-Sat, fall through spring. Calendar on its own site; tickets mostly at the door. Note: in Oct 2026 the site dropped the builder's connection outright (possible bot protection) — builds report it as failed until that changes."
+
+  - name: Dosey Doe Big Barn
+    venue: Dosey Doe
+    type: jsonld
+    url: https://doseydoetickets.com/
+    filter_music: true
+    note: "Spring/The Woodlands fringe (suburban). Dinner listening room; calendar and tickets on its own ticketing site, which embeds machine-readable listings. Occasional comedy nights — music filtering on."
+
+  - name: Main Street Crossing
+    venue: Main Street Crossing
+    type: thundertix
+    url: https://mainstreetcrossing.thundertix.com/events
+    note: "Tomball (suburban NW). Intimate listening room; ticketing via ThunderTix, whose venue page lists every show. Caveat: ThunderTix stamps all of its listings 'postponed' in its machine-readable data (a platform quirk — the venue sells normally), so the builder ignores that flag here and drops only cancelled shows. Worth an eyeball after each build."
+
+  - name: Emmit's Place
+    venue: Emmit's Place
+    type: none
+    url: http://do713.com/venues/emmit-s-place
+    note: "SW Houston blues/jazz listening bar. Own site's calendar is dateless (dates live in poster images) and its events API 404s; the Do713 venue page lists its shows to a browser but yields no server-side text lines or embedded event data to the builder (both readers tried, 0 shows, Oct 2026) — status: needs a different pickup. Tickets at the door."
+
+  - name: Goode Co. Armadillo Palace
+    venue: Armadillo Palace
+    type: none
+    url: https://thearmadillopalace.com/
+    note: "Upper Kirby honky-tonk. Shows/events pages on its own site, but not in a structure the builder could read reliably (Oct 2026) — status: needs a different pickup. Mostly free regulars plus ticketed names."
+
+  - name: The Rustic (Post Oak)
+    venue: The Rustic
+    type: jsonld
+    url: http://bandsintown.com/v/10299826-the-rustic
+    note: "Uptown/Post Oak location only — the downtown location looked closed/unverified in Oct 2026 and is excluded. Own site exposes no readable show list, so the pickup is the Bandsintown venue page (Post Oak address confirmed there). Free/cheap Texas country and Americana patio shows."
+
+  - name: AvantGarden
+    venue: AvantGarden
+    type: eventbrite
+    url: https://www.eventbrite.com/o/avantgarden-houston-31215794621
+    filter_music: true
+    note: "Montrose. Mostly weddings/private events now; the pickup is its verified Eventbrite organizer page. Music filtering on — the feed is mostly open mic, burlesque and comedy, so expect little."
+
+  - name: Warehouse Live Midtown
+    venue: Warehouse Live Midtown
+    type: warehouselive
+    url: https://warehouselivemidtown.com/calendar/
+    note: "Midtown (relocated from the old East End spot). Ballroom + Studio rooms. Calendar page on its own site; the builder reads the list view at the top (date line + title line) — a rolling near-term feed, since the month grids below it carry no such date lines. Private events on the page are dropped by the builder."
+
+  - name: House of Blues Houston
+    venue: House of Blues
+    type: ticketmaster
+    tm_venues: "House of Blues Houston"
+    url: https://www.houseofblues.com/houston
+    note: "Downtown. Live Nation room; listings from the Ticketmaster feed."
+
+  - name: The Bronze Peacock
+    venue: The Bronze Peacock
+    type: ticketmaster
+    tm_venues: "Bronze Peacock"
+    url: https://www.houseofblues.com/houston
+    note: "The small room inside House of Blues Houston (~300 cap). Listed separately because it works like its own club."
+
+  - name: Bayou Music Center
+    venue: Bayou Music Center
+    type: ticketmaster
+    tm_venues: "Bayou Music Center; Bayou Music Center Houston"
+    filter_music: true
+    url: https://www.bayoumusiccenter.com/
+    note: "Theater District. Live Nation hall; calendar mixes comedy and sports with concerts, so music filtering stays on."
+
+  - name: Houston Arena Theatre
+    venue: Houston Arena Theatre
+    type: ticketmaster
+    tm_venues: "Houston Arena Theatre; Arena Theatre"
+    url: https://arenahouston.com/
+    note: "Sharpstown in-the-round theater. Latin, R&B, oldies and tribute programming; tickets via Ticketmaster and the box office."
+
+  - name: Stafford Centre
+    venue: Stafford Centre
+    type: html
+    url: https://www.staffordcentre.com/
+    filter_music: true
+    note: "Stafford (suburban SW). Performing-arts theater with mixed, less frequent programming (conventions and tribute shows alongside concerts) — music filtering on. Calendar via its own site."
+
+  - name: Last Concert Cafe
+    venue: Last Concert Cafe
+    type: none
+    url: https://lastconcert.com/
+    note: "Downtown-edge backyard institution. Now a private-events rental site — no public show calendar and 0 upcoming public shows found anywhere (Oct 2026)."
+
+  - name: Smart Financial Centre
+    venue: Smart Financial Centre
+    type: atg
+    url: https://www.smartfinancialcentre.net/events
+    filter_music: true
+    note: "Sugar Land (suburban). Big soft-seat hall. Box office is ATG Tickets, not Ticketmaster; the ATG listing mirrored on the venue site renders as plain text, and the builder keeps only its Concert category, since the calendar mixes comedy, musicals and dance. The listing page may be paginated, so coverage past the first page is not guaranteed."
+
+  - name: Cynthia Woods Mitchell Pavilion
+    venue: Cynthia Woods Mitchell Pavilion
+    type: ticketmaster
+    tm_venues: "Cynthia Woods Mitchell Pavilion"
+    url: https://www.woodlandscenter.org/
+    note: "The Woodlands (suburban). Live Nation summer-season shed; listings from the Ticketmaster feed."
+
+  - name: Toyota Center
+    venue: Toyota Center
+    type: ticketmaster
+    tm_venues: "Toyota Center"
+    filter_music: true
+    url: https://www.toyotacenter.com/
+    note: "Downtown arena. Concerts only — the Ticketmaster feed is already limited to music, and the filter drops any stray sports entries."
+
+  - name: NRG Stadium
+    venue: NRG Stadium
+    type: ticketmaster
+    tm_venues: "NRG Stadium; NRG Arena; NRG Park"
+    filter_music: true
+    url: https://www.nrgpark.com/
+    note: "Stadium/arena complex. Concerts only via the music-classified Ticketmaster feed."
+
+  - name: Miller Outdoor Theatre
+    venue: Miller Outdoor Theatre
+    type: none
+    url: https://www.milleroutdoortheatre.com/performance-list/
+    note: "Hermann Park. Free outdoor theater, season roughly March-November. Performances are listed via the venue's ticketing system, which the builder could not read (Oct 2026) — status: needs a different pickup."
+
+  - name: Discovery Green
+    venue: Discovery Green
+    type: none
+    url: https://www.discoverygreen.com/events
+    filter_music: true
+    note: "Downtown park with free concert series and festivals. The events page reads as text again (no 403), but the window it serves is STALE: as of the Oct 24, 2026 check it still shows Oct 5-17 with Oct 5 labeled 'Today', so everything on it is past and the builder finds nothing current. The per-series pages are single-series only, not a full calendar — status: needs a current full listing."
+
+  - name: Levy Park
+    venue: Levy Park
+    type: none
+    url: https://www.levyparkhouston.org/events/
+    filter_music: true
+    note: "Upper Kirby park with a small free music series. Its WordPress events API works, but the feed is dominated by fitness and classes (Zumba, tai chi, yoga, storytime) and the music-only filter cannot isolate the sparse music entries — wiring it would flood the list with classes, so it stays unwired (Oct 2026). Revisit only if the park publishes a music-only series feed."
+
+  - name: Market Square Park
+    venue: Market Square Park
+    type: none
+    url: https://marketsquarepark.com/
+    filter_music: true
+    note: "Downtown park with small free music series. The park site exposes no readable events list, and its programmer's calendar mixes venues with no venue filter, so there is no clean pickup (Oct 2026)."
+
+  - name: Super Happy Fun Land
+    venue: Super Happy Fun Land
+    type: shfl
+    url: https://calendar.google.com/calendar/ical/a1ob6eg4vrp1tgvqbbbsq225q4%40group.calendar.google.com/public/basic.ics
+    note: "EaDo DIY/experimental institution. Its site calendar is a public Google Calendar; this reads the calendar's own iCalendar export. Private rentals on the calendar are dropped by the reader."
+
+  - name: DUCTWORK
+    venue: DUCTWORK
+    type: ticketmaster
+    tm_venues: "DUCTWORK"
+    url: https://www.ticketmaster.com/
+    note: "Downtown electronic room sighted on Ticketmaster (e.g. Daft Punk tribute, Oct 2026). Listings via the Ticketmaster feed."
+
+  - name: Acadia Bar & Grill
+    venue: Acadia Bar & Grill
+    type: none
+    url: https://www.facebook.com/AcadiaLive/
+    note: "NW Houston bar with regular live rock, but no verified published concert calendar as of Oct 2026 — status: no usable calendar found."
+
+  - name: Houston Underground Shows (Google Doc)
+    venue: ""
+    type: none
+    url: https://docs.google.com/document/d/12RUNqKjEOGaQPEyFPWC8c45Bf7IQBO9nOwJ3HuTH2yM/mobilebasic
+    note: "Aggregator: a public Google Doc that collected the DIY circuit — The End, Trip Six, 1810 Ojeman, White Swan and house venues. Doc link verified live Oct 22, 2026, but it is STALE: last updated May 14, 2026, latest listing Sept 4, 2026 — everything on it is past, so it yields nothing. The maintainer now posts show fliers as images on Instagram @bensiive, which has no text pickup, so there is no automated way to cover the DIY rooms. Closed as a source; doc link kept for reference. Manual check: https://www.instagram.com/bensiive/"
+
+  - name: Red Dwarf
+    venue: Red Dwarf
+    type: none
+    url: ""
+    note: "Midtown (ex Mongoose vs. Cobra). No activity found after 2021 — presumed dormant/closed. Listed so the gap is visible: no usable calendar found."
+
+  - name: Grand Prize Bar
+    venue: Grand Prize Bar
+    type: none
+    url: ""
+    note: "Montrose bar. Shows are DJ nights/one-offs announced on Instagram — no usable calendar found."
+
+  - name: Poison Girl
+    venue: Poison Girl
+    type: none
+    url: ""
+    note: "Montrose bar. One-off shows announced on socials — no usable calendar found."
+
+  - name: Boondocks
+    venue: Boondocks
+    type: none
+    url: ""
+    note: "Montrose bar. DJ nights/one-offs announced on socials — no usable calendar found."

@@ -1,0 +1,27 @@
+# Houston Shows List — settings
+# These are the knobs you change to make this list your own town's list.
+# Edit this file and sources.yaml, then run:  python3 build.py
+
+city: Houston
+page_title: Houston Shows List
+months_ahead: 6
+timezone: America/Chicago
+
+# Ticketmaster searches are limited to this city/state (used only by
+# sources whose "type" is "ticketmaster").
+state_code: TX
+
+# --- Page style ---
+# Change these, rebuild, and the page restyles itself. Colors are web
+# color codes (a name like "navy" or a hex code like "#1a1a1a").
+# font: any font stack; presets to try:  Georgia, serif  (current,
+# newsprint feel)  |  Verdana, sans-serif  (clean screen look)  |
+# "Courier New", monospace  (typewriter feel)
+font: Georgia, 'Times New Roman', serif
+background_color: "#ffffff"
+text_color: "#1a1a1a"
+accent_color: "#555555"
+content_width: 44rem
+# Dark mode (phones/browsers set to dark): the page switches to these.
+dark_background_color: "#141414"
+dark_text_color: "#e8e8e8"
