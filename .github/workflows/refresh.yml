@@ -3,7 +3,6 @@ name: Refresh shows list
 # Rebuilds index.html from the venue calendars in sources.yaml, so the
 # published page stays current without anyone running the builder by hand.
 # Forks get the same behavior once Actions are enabled on the fork.
-
 on:
   schedule:
     # Daily at 12:00 UTC (6:00am CST / 7:00am CDT).
