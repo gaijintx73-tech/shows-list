@@ -36,7 +36,9 @@ That produces:
 
 A build takes a few minutes (some venues make the builder visit each
 show's page one at a time). One broken source never stops the build;
-it's reported and skipped.
+the builder reuses that venue's last good haul (up to
+`cache_max_age_days` old, default 7) and says so in the report — so a
+one-day feed glitch doesn't wipe the venue off the page.
 
 ## The two files you'll actually touch
 

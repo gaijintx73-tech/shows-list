@@ -8,7 +8,10 @@ to music, dedupes, sorts, and renders one clean static page: index.html.
 
 Stdlib only. Run:  python3 build.py
 A per-source report is printed and saved to build-report.txt.
-One bad source never stops the build — it is reported and skipped.
+One bad source never stops the build — when a source fails (or returns
+no shows), the builder reuses that source's last good haul from
+shows-cache.json (up to cache_max_age_days old, default 7) and says so
+in the report. The page then stays stable through one-day feed glitches.
 """
 
 import datetime as dt
@@ -77,6 +80,43 @@ def load_sources(path):
             k, v = stripped.split(":", 1)
             cur[k.strip()] = _yaml_value(v)
     return sources
+
+# ---------------------------------------------------------------- last-good cache
+# shows-cache.json remembers each source's last successful haul, so a
+# one-day feed failure doesn't wipe that venue off the page. A cached
+# haul is reused only when its source fails (or returns no shows) and
+# the cache is at most cache_max_age_days old (default 7, settings.yaml).
+CACHE_FILE = os.path.join(HERE, "shows-cache.json")
+
+def load_cache():
+    try:
+        with open(CACHE_FILE, encoding="utf-8") as f:
+            raw = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    cache = {}
+    for name, entry in raw.items():
+        shows = []
+        for s in entry.get("shows", []):
+            try:
+                d = dt.date.fromisoformat(s["date"])
+            except (KeyError, ValueError, TypeError):
+                continue
+            shows.append({"date": d, "artist": s.get("artist", ""),
+                          "venue": s.get("venue", "")})
+        cache[name] = {"as_of": entry.get("as_of", ""), "shows": shows}
+    return cache
+
+def save_cache(cache):
+    raw = {}
+    for name, entry in cache.items():
+        raw[name] = {"as_of": entry["as_of"],
+                     "shows": [{"date": s["date"].isoformat(),
+                                "artist": s["artist"],
+                                "venue": s["venue"]} for s in entry["shows"]]}
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(raw, f, indent=1, sort_keys=True)
+        f.write("\n")
 
 # ---------------------------------------------------------------- fetching
 
@@ -760,32 +800,70 @@ def main():
               f"({months} months)", ""]
     print("\n".join(report))
 
+    cache = load_cache()
+    try:
+        max_age = int(settings.get("cache_max_age_days", 7))
+    except (TypeError, ValueError):
+        max_age = 7
+    cached_sources = []  # (name, as_of, count) served from cache this run
+
     all_shows = []  # (priority, show, source_name)
     for src in sources:
         name = src.get("name", "?")
         stype = str(src.get("type", "none")).lower()
         fn = STRATEGIES.get(stype, fetch_none)
+        shows = None
+        failed = None
         try:
             shows = fn(src, ctx)
         except SkipSource as e:
             line = f"SKIP  {name}: {e}"
             print(line); report.append(line); continue
         except Exception as e:
-            line = f"FAIL  {name} [{stype}]: {type(e).__name__}: {e}"
-            print(line); report.append(line); continue
+            failed = f"{type(e).__name__}: {e}"
         kept = []
-        for s in shows:
-            if not s["artist"] or not s["date"]:
-                continue
-            if ALWAYS_DROP_RE.search(s["artist"]):
-                continue
-            if s["date"] < today or s["date"] > end:
-                continue
-            if src.get("filter_music") is True and not is_music(s["artist"]):
-                continue
-            kept.append(s)
-        line = f"OK    {name} [{stype}]: {len(kept)} shows"
-        print(line); report.append(line)
+        if shows:
+            for s in shows:
+                if not s["artist"] or not s["date"]:
+                    continue
+                if ALWAYS_DROP_RE.search(s["artist"]):
+                    continue
+                if s["date"] < today or s["date"] > end:
+                    continue
+                if src.get("filter_music") is True and not is_music(s["artist"]):
+                    continue
+                kept.append(s)
+        used_cache = False
+        if failed is not None or not kept:
+            entry = cache.get(name)
+            if entry and entry.get("shows"):
+                try:
+                    age = (today - dt.date.fromisoformat(
+                        entry.get("as_of", ""))).days
+                except ValueError:
+                    age = 10 ** 9
+                if age <= max_age:
+                    cached = [s for s in entry["shows"]
+                              if today <= s["date"] <= end]
+                    if cached:
+                        kept = cached
+                        used_cache = True
+                        line = (f"CACHED {name} [{stype}]: {len(kept)} shows "
+                                f"from {entry['as_of']} "
+                                f"({failed or 'source returned no shows'})")
+                        print(line); report.append(line)
+                        cached_sources.append(
+                            (name, entry["as_of"], len(kept)))
+        if not kept:
+            if failed is not None:
+                line = f"FAIL  {name} [{stype}]: {failed}"
+            else:
+                line = f"OK    {name} [{stype}]: 0 shows"
+            print(line); report.append(line); continue
+        if not used_cache:
+            cache[name] = {"as_of": today.isoformat(), "shows": list(kept)}
+            line = f"OK    {name} [{stype}]: {len(kept)} shows"
+            print(line); report.append(line)
         prio = PRIORITY.get(stype, 5)
         for s in kept:
             all_shows.append((prio, s, name))
@@ -852,6 +930,11 @@ def main():
         parts.append(f'<p class="show">{htmlmod.escape(fmt_line(s))}</p>')
     if not shows:
         parts.append("<p>No shows found in this build — see build-report.txt.</p>")
+    if cached_sources:
+        names = ", ".join(f"{n} (from {d})" for n, d, _ in cached_sources)
+        parts.append(f"<p>Note: listings for {names} are from the last day "
+                     f"those calendars loaded — the calendars were "
+                     f"temporarily unavailable.</p>")
     parts.append(f"""<footer>Listings are pulled automatically from the venue
 calendars in sources.yaml and shown as published there. {len(shows)} shows
 from {len(sources)} sources checked.</footer>
@@ -867,6 +950,7 @@ from {len(sources)} sources checked.</footer>
     report.append(summary)
     with open(os.path.join(HERE, "build-report.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(report) + "\n")
+    save_cache(cache)
 
 if __name__ == "__main__":
     main()
