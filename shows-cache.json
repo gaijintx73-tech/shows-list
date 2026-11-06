@@ -1,0 +1,2217 @@
+{
+ "Axelrad Beer Garden": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "MAIN STAGE",
+    "date": "2026-11-07",
+    "venue": "Axelrad"
+   },
+   {
+    "artist": "All Axel",
+    "date": "2026-11-20",
+    "venue": "Axelrad"
+   },
+   {
+    "artist": "Glitch A Match: PowerPoint Pitch Your Single Friend \ud83c\udfae\u2728",
+    "date": "2026-11-28",
+    "venue": "Axelrad"
+   },
+   {
+    "artist": "ATTIC",
+    "date": "2027-04-10",
+    "venue": "Axelrad"
+   }
+  ]
+ },
+ "BFE Rock Club": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Emo Revival Night",
+    "date": "2026-11-06",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Hardwired to Kill Em All (Metallica) & Powerslave (Iron Maiden)",
+    "date": "2026-11-07",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Let's Spend The Night Together with Good Vibes Acoustik, Spare Parts, and Special Guests",
+    "date": "2026-11-13",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Shining Force's \"King David\" Release Party!",
+    "date": "2026-11-14",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "3 Years Hollow, Trackside, Awaken The Giant",
+    "date": "2026-11-15",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Iperion, SplitGrin, Krimson, Distartica, Peace Attack",
+    "date": "2026-11-20",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Through Your Eyes, Lightforce, Beholder, Twin Sunns, Heaven is Sleeping",
+    "date": "2026-11-21",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Rock En Espanol with Satri, Falsa Realidad, Super Pop, PoetiX",
+    "date": "2026-11-27",
+    "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "Distance of Thought, Warhog, Eden-6.",
+    "date": "2026-11-28",
+    "venue": "BFE Rock Club"
+   }
+  ]
+ },
+ "Bad Astronaut Brewing": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Superheaven",
+    "date": "2026-11-06",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "do not resurrect",
+    "date": "2026-11-07",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Jervis Campbell",
+    "date": "2026-11-08",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Balance and Composure",
+    "date": "2026-11-09",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Pegstar Concerts Presents:Pain of Truth",
+    "date": "2026-11-10",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Kurt Travis",
+    "date": "2026-11-12",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Friday the 13th Badass Tattoo Benefit for Santo's Sanctuary and Rescue",
+    "date": "2026-11-13",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Wolf & Bear",
+    "date": "2026-11-13",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Emo Night Homecoming",
+    "date": "2026-11-14",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Prince Daddy & The Hyena",
+    "date": "2026-11-15",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "King Buffalo with L.A. WITCH",
+    "date": "2026-11-17",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "The Floozies",
+    "date": "2026-11-19",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Jejune with The Ritornello Form",
+    "date": "2026-11-22",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Elias",
+    "date": "2026-11-29",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Beats Antique",
+    "date": "2026-12-04",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "LETDOWN. The Happy Tour",
+    "date": "2026-12-05",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Westside Boogie",
+    "date": "2026-12-07",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Heartless Bastards \u2018All This Time\u2019 20th Anniversary",
+    "date": "2026-12-12",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Wishy",
+    "date": "2026-12-14",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Necrofier and Imprecation with Pale Misery and Necro Anomaly",
+    "date": "2026-12-18",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Rickshaw Billie's Burger Patrol - Ca$h Grab Tour",
+    "date": "2026-12-19",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "ILUKA - The Wings Tour",
+    "date": "2026-12-20",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Morningside Drive",
+    "date": "2026-12-26",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Bonsai Bar Every 2nd Saturday and 4th Tuesday",
+    "date": "2026-12-28",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Liam St. John",
+    "date": "2027-01-30",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Dame Atlas",
+    "date": "2027-03-09",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Sungazer with Button Masher",
+    "date": "2027-03-11",
+    "venue": "Bad Astronaut Brewing"
+   }
+  ]
+ },
+ "Dan Electro's Guitar Bar": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Astro Inn & Cucucuy",
+    "date": "2026-11-06",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Joe King Carrasco",
+    "date": "2026-11-07",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Faceplant Shark Attack thecrisis Charlie & Joels Birthday Jam and Moontower Reunion",
+    "date": "2026-11-07",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Houston Business Group Pop Up Market with Texas Cyclone Band + Strummingbirds + OPEN JAM @ NOON",
+    "date": "2026-11-08",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "In Rainbows - the music of Radiohead",
+    "date": "2026-11-08",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Houston Business Group Happy Hour",
+    "date": "2026-11-09",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "The Royal Dukes Showcase",
+    "date": "2026-11-09",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-11-09",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-11-10",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Kristina Murray + Buffalo Galaxy at Dan Electros",
+    "date": "2026-11-11",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Thursday Nights with Nether Hour + Honey Hounds",
+    "date": "2026-11-12",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "CLFA Happy Meowr",
+    "date": "2026-11-13",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "DEADEYE (AUSTIN'S GRATEFUL DEAD TRIBUTE)",
+    "date": "2026-11-13",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "TIME TO WALK AWAY Single Release Event DEAD BLINDS with JJ White + The Causeways",
+    "date": "2026-11-14",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "NIGHT DRIVE + Spellsword + 6StringHellion",
+    "date": "2026-11-14",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "ESPRESSO ROCK - Italian Rock, No Sugar!",
+    "date": "2026-11-15",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Sunday the Almost 13th!",
+    "date": "2026-11-15",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Women In Industry Happy Hour",
+    "date": "2026-11-16",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Moonlight Menagerie",
+    "date": "2026-11-16",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-11-16",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-11-17",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Synergy One Lending Happy Hour",
+    "date": "2026-11-18",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Hogg Middle School Fundraiser",
+    "date": "2026-11-18",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Whiskey Wednesday w/ Christopher Seymore & The Slow Hands",
+    "date": "2026-11-18",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Darius Jackson Live at Dan Electros",
+    "date": "2026-11-19",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "LOVE BUCKET",
+    "date": "2026-11-21",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "BAYOU BANG-A-RANG! With THE BANDULUS & DEM ROOTS MUSIC",
+    "date": "2026-11-21",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Paige Lewis Album Release Show",
+    "date": "2026-11-22",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Charlie Danger's Jet Set, North by North (CHI), The Wheel Workers",
+    "date": "2026-11-22",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Raa\u2019 Tansiel",
+    "date": "2026-11-23",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-11-23",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-11-24",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Chokehold's Grateful Thanksgiving with special guests Lucky Monkeys",
+    "date": "2026-11-25",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Thanksgiving with Jonathan and Chase",
+    "date": "2026-11-26",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Moondogs the Last Waltz The Band Tribute show",
+    "date": "2026-11-27",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Racket Debut at Dan Electros",
+    "date": "2026-11-28",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "(PRIVATE PARTY) Katy Taylor 10-Year High School Reunion",
+    "date": "2026-11-28",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Sunami Force and H Kumi Foundation Fundraiser",
+    "date": "2026-11-29",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Griffin Swank\u2019s Hubble Space Parade",
+    "date": "2026-11-29",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Boomtown Dance Party!",
+    "date": "2026-11-30",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-11-30",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-12-01",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Joe Marcinek Band",
+    "date": "2026-12-03",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Kendall Street Company: Yodeling Astroman Tour",
+    "date": "2026-12-06",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-12-07",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-12-08",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Hill Country Revival",
+    "date": "2026-12-09",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Thursday Nights with Nether Hour + Louisiana Surf Department + St. Judas and the Black Hymns",
+    "date": "2026-12-10",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "CLFA Happy Meowr",
+    "date": "2026-12-11",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "End of The Year Punk Party w/ BFN Productions",
+    "date": "2026-12-13",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "The Royal Dukes Showcase",
+    "date": "2026-12-14",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-12-14",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-12-15",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Synergy One Lending Happy Hour",
+    "date": "2026-12-16",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "EZ Band Live at Dan Electro's",
+    "date": "2026-12-18",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Women In Industry Happy Hour",
+    "date": "2026-12-21",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Moonlight Menagerie",
+    "date": "2026-12-21",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-12-21",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-12-22",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Jack and Jan Happy Hour Show",
+    "date": "2026-12-23",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Royal Dukes DJ/Band Hybrid Showcase",
+    "date": "2026-12-28",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Karaoke Mondays",
+    "date": "2026-12-28",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Shawn Allen's Music Mixer & Jam",
+    "date": "2026-12-29",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "BRAIN-DEAD!, Ne\u2019er-do-well and Sorry, Sarah",
+    "date": "2027-01-07",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "The 18th Annual BowiElvis Fest",
+    "date": "2027-01-08",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Thursday Nights with Nether Hour 1/14",
+    "date": "2027-01-14",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Thursday Nights with Nether Hour 2/11",
+    "date": "2027-02-11",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Hot 8 Brass Band 30th Anniversary Tour",
+    "date": "2027-02-18",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "A FRIEND OF MINE: A CELEBRATION OF THE LIFE AND MUSIC OF JERRY GARCIA",
+    "date": "2027-04-17",
+    "venue": "Dan Electro's"
+   }
+  ]
+ },
+ "Dosey Doe Big Barn": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Ian Moore",
+    "date": "2026-11-06",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Mercury Houston",
+    "date": "2026-11-08",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "You Should Be Dancing - A Tribute To The Bee Gees",
+    "date": "2026-11-12",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Paul Thorn Band",
+    "date": "2026-11-13",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Jon Wolfe",
+    "date": "2026-11-14",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "William Elliott Whitmore",
+    "date": "2026-11-15",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Beatles vs. Stones - A Musical Showdown",
+    "date": "2026-11-19",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Zoso - The Ultimate Led Zeppelin Experience",
+    "date": "2026-11-20",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Kate Watson of American Idol",
+    "date": "2026-11-21",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Larry, Steve and Rudy: The Gatlin Brothers",
+    "date": "2026-11-22",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "JunkBunny",
+    "date": "2026-11-27",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Adam Hawley Christmas Tour",
+    "date": "2026-11-28",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Cool Freddie E & the Crew",
+    "date": "2026-11-29",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Texas Jazz Orchestra - Christmas",
+    "date": "2026-12-02",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Neal McCoy & Band",
+    "date": "2026-12-03",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Jason Cassidy",
+    "date": "2026-12-05",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Bob Schneider",
+    "date": "2026-12-08",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Mike Ryan",
+    "date": "2026-12-11",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Texas Flood",
+    "date": "2026-12-13",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Shaun Cassidy - UNWRAPPED: Songs & Stories For the Holidays",
+    "date": "2026-12-14",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Mindi Abair's I Can't Wait for Christmas Tour",
+    "date": "2026-12-15",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Mike Zito Band",
+    "date": "2026-12-16",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Joe Burlison's Christmas Jazz",
+    "date": "2026-12-18",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Already Gone \u2013 Eagles Tribute Band",
+    "date": "2026-12-19",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Mercury Houston",
+    "date": "2026-12-20",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "A Beach Boys Christmas!",
+    "date": "2026-12-22",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "New Year's Eve with Piano Punch \"Dueling Pianos\"",
+    "date": "2026-12-31",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Six Gun Sound \u2013 \u201cThe Ultimate Bad Company Tribute Band\u201d",
+    "date": "2027-01-02",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Sammy Arriaga",
+    "date": "2027-01-07",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Jenny Tolman",
+    "date": "2027-01-08",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Back In Black (Tribute Band) - The True AC / DC Experience",
+    "date": "2027-01-09",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Eric Johanson",
+    "date": "2027-01-13",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "John Berry",
+    "date": "2027-01-14",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Cody Hibbard",
+    "date": "2027-01-15",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Tilluride",
+    "date": "2027-01-16",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Jeff Canada and Friends - Annual Birthday Show",
+    "date": "2027-01-17",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "David Lewis",
+    "date": "2027-01-21",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "The Arcadian Wild - Make It Out Alive Tour",
+    "date": "2027-01-22",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Hayden Baker",
+    "date": "2027-01-23",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Ronnie Bowen Band",
+    "date": "2027-01-24",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Scotty Alexander",
+    "date": "2027-02-06",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "David Adam Byrnes",
+    "date": "2027-02-11",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Laci Kaye Booth",
+    "date": "2027-02-12",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Josh Weathers",
+    "date": "2027-02-19",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "A Man Named Cash - Tribute to Johnny Cash & June Carter Cash",
+    "date": "2027-02-27",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Cote Deonath \u201cUltimate Elvis Tribute World Champion\u201d",
+    "date": "2027-02-28",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Kyle Park",
+    "date": "2027-03-05",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Trout Fishing In America",
+    "date": "2027-03-12",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "1964 The Tribute",
+    "date": "2027-03-13",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Mercury Houston",
+    "date": "2027-03-14",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Vincent Ingala",
+    "date": "2027-03-19",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Blue Water Highway Band",
+    "date": "2027-03-20",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Martin Sexton",
+    "date": "2027-03-25",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Blacktop Mojo",
+    "date": "2027-03-26",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Kaylee Rose",
+    "date": "2027-04-02",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Texas A&M Aggieland Orchestra",
+    "date": "2027-04-03",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "A1A - The Official Jimmy Buffet Tribute Show",
+    "date": "2027-04-07",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "The Texas Tenors",
+    "date": "2027-04-11",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Patty Larkin",
+    "date": "2027-05-06",
+    "venue": "Dosey Doe"
+   }
+  ]
+ },
+ "McGonigel's Mucky Duck": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Clandestine",
+    "date": "2026-11-06",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Piper Jones",
+    "date": "2026-11-06",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Dawn and Hawkes",
+    "date": "2026-11-07",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Lisa Morales",
+    "date": "2026-11-07",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Open Mic",
+    "date": "2026-11-09",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kerrville Winners",
+    "date": "2026-11-10",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2026-11-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Scott Miller",
+    "date": "2026-11-12",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sophie Gault featuring Garrett Owen",
+    "date": "2026-11-12",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Beat Root Revival",
+    "date": "2026-11-13",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Nathan Quick",
+    "date": "2026-11-13",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Madam Radar",
+    "date": "2026-11-14",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Two Tons of Steel",
+    "date": "2026-11-14",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Open Mic",
+    "date": "2026-11-16",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sarah Lee Guthrie",
+    "date": "2026-11-17",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2026-11-18",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Chris Duarte & Jelly Ellington",
+    "date": "2026-11-19",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sundance Head",
+    "date": "2026-11-19",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Pat Byrne & Gr\u00e1inne Hunt",
+    "date": "2026-11-20",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Bleu Edmonson",
+    "date": "2026-11-20",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "The Texas Turbines",
+    "date": "2026-11-21",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Jazz Night with Montagem",
+    "date": "2026-11-21",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Open Mic",
+    "date": "2026-11-23",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Paul English Quartet",
+    "date": "2026-11-24",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2026-11-25",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Slaid Cleaves",
+    "date": "2026-11-28",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Liz Longley",
+    "date": "2026-11-28",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Open Mic",
+    "date": "2026-11-30",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Libby Koch - Lainey Balagia - Katie Rushing",
+    "date": "2026-12-01",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Walt & Tina Wilkins",
+    "date": "2026-12-03",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Paul Noyola",
+    "date": "2026-12-03",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Dave Alvin & Jimmie Dale Gilmore",
+    "date": "2026-12-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Dave Alvin & Jimmie Dale Gilmore",
+    "date": "2026-12-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sunny Sweeney",
+    "date": "2026-12-05",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sunny Sweeney",
+    "date": "2026-12-05",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Noise for Toys",
+    "date": "2026-12-08",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "with Private Party",
+    "date": "2026-12-09",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kevin Russell",
+    "date": "2026-12-10",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kevin Russell",
+    "date": "2026-12-10",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Ian Moore",
+    "date": "2026-12-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Ian Moore",
+    "date": "2026-12-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Rob Baird",
+    "date": "2026-12-12",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Trish & Darin",
+    "date": "2026-12-15",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "with Private Party",
+    "date": "2026-12-16",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Martin Burnistons 33nd Annual Singalong",
+    "date": "2026-12-17",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Martin Burnistons 33nd Annual Singalong",
+    "date": "2026-12-18",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Christmas Singalong - Kids Show",
+    "date": "2026-12-19",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Martin Burnistons 33nd Annual Singalong",
+    "date": "2026-12-19",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Bill Kirchen",
+    "date": "2026-12-22",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Tony Kamel",
+    "date": "2026-12-26",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Hadden Sayers",
+    "date": "2026-12-29",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Fiddles at 4, Midnight at 6",
+    "date": "2026-12-31",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Shake Russell",
+    "date": "2027-01-02",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Hot Club of Cowtown",
+    "date": "2027-01-02",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "BettySoo",
+    "date": "2027-01-07",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Dale Watson",
+    "date": "2027-01-08",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kym Warner & Warren Hood",
+    "date": "2027-01-08",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Griffin House",
+    "date": "2027-01-14",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Adam Hood",
+    "date": "2027-01-15",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kiki Maroon",
+    "date": "2027-01-16",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Guthrie Family Singers - Sarah Lee, Serena, Robin",
+    "date": "2027-01-19",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "West Texas Exiles",
+    "date": "2027-01-22",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "West Texas Exiles",
+    "date": "2027-01-22",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kevin Russell",
+    "date": "2027-01-26",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kevin Russell",
+    "date": "2027-01-26",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sister Golden Hair - Barbara Nesbitt & Wendy Colonna",
+    "date": "2027-01-28",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "John Baumann",
+    "date": "2027-01-29",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "The Flinns",
+    "date": "2027-02-02",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Freedy Johnston",
+    "date": "2027-02-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Mason Lively",
+    "date": "2027-02-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Alma Russ",
+    "date": "2027-02-05",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Market Junction",
+    "date": "2027-02-06",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Judy Blank",
+    "date": "2027-02-06",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Trace Bundy",
+    "date": "2027-02-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Jim Lauderdale",
+    "date": "2027-02-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Ellis Paul",
+    "date": "2027-02-12",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Radney Foster",
+    "date": "2027-02-12",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kelly Willis",
+    "date": "2027-02-13",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Kelly Willis",
+    "date": "2027-02-13",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Micky and the Motorcars",
+    "date": "2027-02-18",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Matt Kirk and The Gueyfarers",
+    "date": "2027-02-20",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Alex Cuba",
+    "date": "2027-02-27",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sam Robbins",
+    "date": "2027-03-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Denitia",
+    "date": "2027-03-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Sweet Megg",
+    "date": "2027-03-20",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Cory Branan",
+    "date": "2027-04-06",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Robbie Fulks",
+    "date": "2027-04-22",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Amy Speace",
+    "date": "2027-04-30",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Max and Heather Stalling",
+    "date": "2027-05-01",
+    "venue": "McGonigel's Mucky Duck"
+   }
+  ]
+ },
+ "Numbers": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-11-06",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "6400 Party!",
+    "date": "2026-11-07",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-11-13",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Disco 300 w/ DJ JD Arnold!",
+    "date": "2026-11-14",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-11-20",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Underworld\u2019s Monthly Bash!",
+    "date": "2026-11-21",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers Black Celebration!",
+    "date": "2026-11-27",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-11-27",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "80\u2019s Night!",
+    "date": "2026-11-28",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-12-04",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Planet of the Drums w/ AK1200 \u2013 DJ DARA \u2013 DIESELBOY",
+    "date": "2026-12-05",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-12-11",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-12-18",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Numbers Christmas Party!",
+    "date": "2026-12-19",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
+    "date": "2026-12-25",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "Numbers New Year\u2019s Eve 2026 \u2013 2027!",
+    "date": "2026-12-31",
+    "venue": "Numbers"
+   },
+   {
+    "artist": "#bowieallnight!",
+    "date": "2027-01-09",
+    "venue": "Numbers"
+   }
+  ]
+ },
+ "Smart Financial Centre": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Steve Lacy",
+    "date": "2026-11-08",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "The Stray Cats With Special Guest The Chins Chins",
+    "date": "2026-11-12",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Intocable",
+    "date": "2026-11-21",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Yuri & Lucero",
+    "date": "2026-11-27",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Leslie Odom, Jr.",
+    "date": "2026-11-28",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Outlander In Concert",
+    "date": "2026-11-29",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Billy Strings",
+    "date": "2026-12-09",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Silvestre Dangond",
+    "date": "2026-12-11",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "NieR:Orchestra Concert",
+    "date": "2026-12-19",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Keith Sweat with Special Guest Kut Klose",
+    "date": "2026-12-20",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Boosie & Webbie - The Black Tie Experience",
+    "date": "2026-12-26",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Love Actually in Concert",
+    "date": "2026-12-27",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Joe, Leela James, Raheem DeVaughn",
+    "date": "2027-01-17",
+    "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Twilight in Concert",
+    "date": "2027-01-20",
+    "venue": "Smart Financial Centre"
+   }
+  ]
+ },
+ "Stafford Centre": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Sugar Plum Market 2026 - Friday",
+    "date": "2026-11-06",
+    "venue": "Stafford Centre"
+   },
+   {
+    "artist": "Sugar Plum Market 2026 - Friday Fashion Show",
+    "date": "2026-11-06",
+    "venue": "Stafford Centre"
+   },
+   {
+    "artist": "Sugar Plum Market 2026 - Saturday",
+    "date": "2026-11-07",
+    "venue": "Stafford Centre"
+   }
+  ]
+ },
+ "Super Happy Fun Land": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Houston Art Crawl",
+    "date": "2026-11-21",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
+    "date": "2026-11-13",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Houston Krampus Krampage",
+    "date": "2026-12-05",
+    "venue": "Super Happy Fun Land"
+   }
+  ]
+ },
+ "The Heights Theater": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Andrew McMahon and His Piano",
+    "date": "2026-11-06",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Grateful Shred",
+    "date": "2026-11-08",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "They Might Be Giants - Night 1",
+    "date": "2026-11-10",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "They Might Be Giants - Night 2",
+    "date": "2026-11-11",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Tommy Castro & The Painkillers",
+    "date": "2026-11-12",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Trish Toledo",
+    "date": "2026-11-13",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Garrison Keillor",
+    "date": "2026-11-14",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "On Cinema ft. Gregg Turkington and Dr. Newman (Tim) Heidecker",
+    "date": "2026-11-15",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "New Constellations",
+    "date": "2026-11-16",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Tab Benoit",
+    "date": "2026-11-18",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "North Mississippi Allstars",
+    "date": "2026-11-19",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "MARLOWE & MEADE\u2019S Christmas Vacation",
+    "date": "2027-02-19",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "John Craigie",
+    "date": "2027-03-17",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Destroy Boys",
+    "date": "2027-03-25",
+    "venue": "The Heights Theater"
+   },
+   {
+    "artist": "Steam Powered Giraffe",
+    "date": "2027-03-25",
+    "venue": "The Heights Theater"
+   }
+  ]
+ },
+ "The Secret Group": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Comeback Kid",
+    "date": "2026-11-09",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Post Animal: Maybe You Have To Tour",
+    "date": "2026-11-10",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Chrissy Chlapecka",
+    "date": "2026-11-12",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Distant: Into Despair US Tour",
+    "date": "2026-11-17",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Leanna Firestone",
+    "date": "2026-11-25",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "The Suffers with special guest Hasaan Olu",
+    "date": "2026-11-28",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "D.R.I.",
+    "date": "2026-12-05",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "A Skylit Drive",
+    "date": "2026-12-06",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Teenage Bottle Rocket",
+    "date": "2026-12-11",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "never easy: I Still Care 2027 American Tour",
+    "date": "2027-02-05",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Madds Buckley",
+    "date": "2027-02-05",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Comeback Kid",
+    "date": "2026-11-09",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Post Animal: Maybe You Have To Tour",
+    "date": "2026-11-10",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Chrissy Chlapecka",
+    "date": "2026-11-12",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Distant: Into Despair US Tour",
+    "date": "2026-11-17",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Leanna Firestone",
+    "date": "2026-11-25",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "The Suffers with special guest Hasaan Olu",
+    "date": "2026-11-28",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "D.R.I.",
+    "date": "2026-12-05",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "A Skylit Drive",
+    "date": "2026-12-06",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Teenage Bottle Rocket",
+    "date": "2026-12-11",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "never easy: I Still Care 2027 American Tour",
+    "date": "2027-02-05",
+    "venue": "The Secret Group"
+   },
+   {
+    "artist": "Madds Buckley",
+    "date": "2027-02-05",
+    "venue": "The Secret Group"
+   }
+  ]
+ },
+ "White Oak Music Hall": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "ROA: USA Tour",
+    "date": "2026-11-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Bonobo: Distance in Static Live North American Tour",
+    "date": "2026-11-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "The Jack Wharff Band",
+    "date": "2026-11-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "THE KILANS: COULD YOU KEEP IT DARK? TOUR",
+    "date": "2026-11-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "(SOLD OUT) Book of Love: 40th Anniversary Tour",
+    "date": "2026-11-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Thundercat: Distracted AF Tour",
+    "date": "2026-11-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Dead On A Sunday",
+    "date": "2026-11-08",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Turnover",
+    "date": "2026-11-08",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Noah Gundersen: Rites of Spring US TOUR FALL 2026",
+    "date": "2026-11-09",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "(SOLD OUT) LIL PEEP 30TH BIRTHDAY CELEBRATION",
+    "date": "2026-11-10",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Paige Fish",
+    "date": "2026-11-10",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Bitch Cabal feat. Wednesday & Mannequin Pussy",
+    "date": "2026-11-12",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "HOHYUN",
+    "date": "2026-11-12",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Breakaway Music Festival Houston 2026",
+    "date": "2026-11-13",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Icon for Hire: Scripted 15 Year Anniversary Tour",
+    "date": "2026-11-13",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "80s AND BEYOND",
+    "date": "2026-11-13",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "House of Heavy",
+    "date": "2026-11-14",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Breakaway Houston 2026 Official After Party ft. Know Good",
+    "date": "2026-11-14",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Andrew Garden & Midnight Beverage",
+    "date": "2026-11-15",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Emma Ogier",
+    "date": "2026-11-15",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Keenan Te",
+    "date": "2026-11-16",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Holywatr: Deo Gratias Tour",
+    "date": "2026-11-17",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Cannelle",
+    "date": "2026-11-17",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "LIIM: LE MONDE EST \u00c0 NOUS",
+    "date": "2026-11-18",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Paul Cauthen",
+    "date": "2026-11-19",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Navan \u2013 Kisses on the Moon- Tour",
+    "date": "2026-11-19",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "George Clanton",
+    "date": "2026-11-20",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Lights & Apparitions w/ Vehement Burn, Khepera",
+    "date": "2026-11-20",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Aterciopelados: La Pipa De La Paz 30 A\u00f1os Tour",
+    "date": "2026-11-21",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Broadway Rave",
+    "date": "2026-11-21",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Static Dress \u2013 Injury Episode USA Tour",
+    "date": "2026-11-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Tear Dungeon",
+    "date": "2026-11-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Diles Que No Me Maten",
+    "date": "2026-11-24",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "King of Drag: The Royal Tour",
+    "date": "2026-11-24",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Kawaii Rave",
+    "date": "2026-11-27",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Gimme Gimme Disco",
+    "date": "2026-11-28",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "2000\u2019s Rave",
+    "date": "2026-11-28",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Pretty Sick",
+    "date": "2026-11-29",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Oakwood w/ Aprils Love Affair",
+    "date": "2026-12-02",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Temachii",
+    "date": "2026-12-03",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "The Black Angels",
+    "date": "2026-12-03",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Bella White",
+    "date": "2026-12-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "date": "2026-12-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Rexv2 \u2013 Baby Houston Tour w/ Devstacks & Luhpray",
+    "date": "2026-12-08",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "DJ Meredith Marks: YOU. CAN. DANCE. TOUR Season 7 Watch Party",
+    "date": "2026-12-09",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "james K",
+    "date": "2026-12-09",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "twen + Mini Trees",
+    "date": "2026-12-13",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
+    "date": "2026-12-13",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "(SOLD OUT) Lucy Bedroque",
+    "date": "2026-12-18",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Silverada",
+    "date": "2026-12-19",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Donovan Melero",
+    "date": "2026-12-20",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Yaelokre",
+    "date": "2026-12-20",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Ghostland Observatory",
+    "date": "2026-12-30",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Magoo",
+    "date": "2027-01-01",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Koffin Kats",
+    "date": "2027-01-14",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Emo Night Brooklyn",
+    "date": "2027-01-15",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Vansire",
+    "date": "2027-01-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Gimme Gimme Disco",
+    "date": "2027-01-23",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Jon Spencer",
+    "date": "2027-01-29",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "KAMIJO",
+    "date": "2027-02-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "David Cross \u2013 Fake Joy",
+    "date": "2027-02-12",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Girl Ultra: el Tour de RRRomeo",
+    "date": "2027-02-17",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Northlane",
+    "date": "2027-02-18",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Ashe: The Girl of Your Dreams Tour",
+    "date": "2027-02-19",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "The Lemonheads: The Love Chant Tour",
+    "date": "2027-02-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Vincent Lima",
+    "date": "2027-02-24",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Public Image Ltd: This Is Not The Last Tour",
+    "date": "2027-02-25",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Crooked Fingers",
+    "date": "2027-03-01",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "THE MOVEMENT TOUR: WINTER 2027",
+    "date": "2027-03-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "James Marriott World Tour",
+    "date": "2027-03-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Jack & Jack",
+    "date": "2027-03-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Twin Temple: Doomed Lovers Tour",
+    "date": "2027-03-13",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Vacations: Pursuit of Anything Tour",
+    "date": "2027-03-14",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Hell\u2019s Heroes IX \u2013 3 Day Pass",
+    "date": "2027-03-18",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Worldpeace DMT",
+    "date": "2027-03-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "POISON THE WELL & ALEXISONFIRE",
+    "date": "2027-03-26",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Valencia Grace",
+    "date": "2027-03-26",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Bo Staloch: The \u2018Too Big, Too Big\u2019 Tour",
+    "date": "2027-03-27",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Alex Cameron",
+    "date": "2027-03-29",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Durand Jones & The Indications \u2013 Cruisin\u2019 To The Park 2027 Tour",
+    "date": "2027-03-30",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Dogpark",
+    "date": "2027-04-11",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "THE ELOVATERS \u2013 SHARK BELLY MOTEL TOUR w/ Twin Fin, Dylan Controne",
+    "date": "2027-04-15",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Mei Semones",
+    "date": "2027-04-16",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "SHYGIRL \u2013 SWALLOW! LIVE",
+    "date": "2027-04-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Terrian \u2013 Mad Big World Tour",
+    "date": "2027-04-24",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "DIIV \u2013 ZIRP! The World Tour",
+    "date": "2027-04-25",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Too Many Zooz: Audio Lipstick Tour",
+    "date": "2027-04-30",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Cleopatrick",
+    "date": "2027-05-01",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Mass of the Fermenting Dregs",
+    "date": "2027-05-06",
+    "venue": "White Oak Music Hall"
+   }
+  ]
+ },
+ "Wonky Power": {
+  "as_of": "2026-11-06",
+  "shows": [
+   {
+    "artist": "Dia de Los Darks Cumplea\u00f1os",
+    "date": "2026-11-07",
+    "venue": "Wonky Power"
+   },
+   {
+    "artist": "DESDE CDMX: OJOSPIELCANELA",
+    "date": "2026-11-12",
+    "venue": "Wonky Power"
+   },
+   {
+    "artist": "Noche de Cumbia \u2014 Entrada Gratis",
+    "date": "2026-11-13",
+    "venue": "Wonky Power"
+   },
+   {
+    "artist": "SIGNAL2NOISE II: Houston Electronic Music Night",
+    "date": "2026-11-14",
+    "venue": "Wonky Power"
+   },
+   {
+    "artist": "Trap Haus Party Haus",
+    "date": "2026-11-20",
+    "venue": "Wonky Power"
+   },
+   {
+    "artist": "Sunnitharapper & Friends",
+    "date": "2026-12-04",
+    "venue": "Wonky Power"
+   }
+  ]
+ }
+}
