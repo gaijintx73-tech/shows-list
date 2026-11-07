@@ -1,6 +1,6 @@
 {
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
    {
     "artist": "MAIN STAGE",
@@ -25,13 +25,8 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Emo Revival Night",
-    "date": "2026-11-06",
-    "venue": "BFE Rock Club"
-   },
    {
     "artist": "Hardwired to Kill Em All (Metallica) & Powerslave (Iron Maiden)",
     "date": "2026-11-07",
@@ -71,17 +66,17 @@
     "artist": "Distance of Thought, Warhog, Eden-6.",
     "date": "2026-11-28",
     "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "BFE Rock Club Christmas Party!",
+    "date": "2026-12-04",
+    "venue": "BFE Rock Club"
    }
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Superheaven",
-    "date": "2026-11-06",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "do not resurrect",
     "date": "2026-11-07",
@@ -215,13 +210,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Astro Inn & Cucucuy",
-    "date": "2026-11-06",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Joe King Carrasco",
     "date": "2026-11-07",
@@ -565,13 +555,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Ian Moore",
-    "date": "2026-11-06",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "Mercury Houston",
     "date": "2026-11-08",
@@ -865,18 +850,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Clandestine",
-    "date": "2026-11-06",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Piper Jones",
-    "date": "2026-11-06",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Dawn and Hawkes",
     "date": "2026-11-07",
@@ -1283,13 +1258,13 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
-    "artist": "Denitia",
-    "date": "2027-03-04",
+    "artist": "Sweet Megg",
+    "date": "2027-03-20",
     "venue": "McGonigel's Mucky Duck"
    },
    {
-    "artist": "Sweet Megg",
-    "date": "2027-03-20",
+    "artist": "Denitia",
+    "date": "2027-03-26",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1315,13 +1290,8 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
-    "date": "2026-11-06",
-    "venue": "Numbers"
-   },
    {
     "artist": "6400 Party!",
     "date": "2026-11-07",
@@ -1404,8 +1374,18 @@
    }
   ]
  },
+ "Rudyard's": {
+  "as_of": "2026-11-07",
+  "shows": [
+   {
+    "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
+    "date": "2026-11-20",
+    "venue": "Rudyard's"
+   }
+  ]
+ },
  "Smart Financial Centre": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
    {
     "artist": "Steve Lacy",
@@ -1476,22 +1456,17 @@
     "artist": "Twilight in Concert",
     "date": "2027-01-20",
     "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Star Wars: A New Hope in Concert",
+    "date": "2027-01-22",
+    "venue": "Smart Financial Centre"
    }
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Sugar Plum Market 2026 - Friday",
-    "date": "2026-11-06",
-    "venue": "Stafford Centre"
-   },
-   {
-    "artist": "Sugar Plum Market 2026 - Friday Fashion Show",
-    "date": "2026-11-06",
-    "venue": "Stafford Centre"
-   },
    {
     "artist": "Sugar Plum Market 2026 - Saturday",
     "date": "2026-11-07",
@@ -1500,8 +1475,23 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
+    "date": "2026-11-13",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
+    "venue": "Super Happy Fun Land"
+   },
    {
     "artist": "Houston Art Crawl",
     "date": "2026-11-21",
@@ -1513,21 +1503,6 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
-    "date": "2026-11-13",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
-    "venue": "Super Happy Fun Land"
-   },
-   {
     "artist": "Houston Krampus Krampage",
     "date": "2026-12-05",
     "venue": "Super Happy Fun Land"
@@ -1535,13 +1510,8 @@
   ]
  },
  "The Heights Theater": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "Andrew McMahon and His Piano",
-    "date": "2026-11-06",
-    "venue": "The Heights Theater"
-   },
    {
     "artist": "Grateful Shred",
     "date": "2026-11-08",
@@ -1593,6 +1563,11 @@
     "venue": "The Heights Theater"
    },
    {
+    "artist": "Bahamas",
+    "date": "2026-11-20",
+    "venue": "The Heights Theater"
+   },
+   {
     "artist": "MARLOWE & MEADE\u2019S Christmas Vacation",
     "date": "2027-02-19",
     "venue": "The Heights Theater"
@@ -1615,7 +1590,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
    {
     "artist": "Comeback Kid",
@@ -1730,23 +1705,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
-   {
-    "artist": "ROA: USA Tour",
-    "date": "2026-11-06",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Bonobo: Distance in Static Live North American Tour",
-    "date": "2026-11-06",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "The Jack Wharff Band",
-    "date": "2026-11-06",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "THE KILANS: COULD YOU KEEP IT DARK? TOUR",
     "date": "2026-11-07",
@@ -1853,12 +1813,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Paul Cauthen",
+    "artist": "Navan \u2013 Kisses on the Moon- Tour",
     "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Navan \u2013 Kisses on the Moon- Tour",
+    "artist": "Paul Cauthen",
     "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
@@ -1953,13 +1913,18 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "james K",
+    "date": "2026-12-09",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "DJ Meredith Marks: YOU. CAN. DANCE. TOUR Season 7 Watch Party",
     "date": "2026-12-09",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "james K",
-    "date": "2026-12-09",
+    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
+    "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
    {
@@ -1968,8 +1933,8 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
-    "date": "2026-12-13",
+    "artist": "(RESCHEDULED) ROA: USA Tour",
+    "date": "2026-12-16",
     "venue": "White Oak Music Hall"
    },
    {
@@ -2180,7 +2145,7 @@
   ]
  },
  "Wonky Power": {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "shows": [
    {
     "artist": "Dia de Los Darks Cumplea\u00f1os",
