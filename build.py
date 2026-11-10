@@ -21,15 +21,37 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.parse
 import urllib.request
 import urllib.error
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/126 Safari/537.36",
-      "Accept": "text/html,application/json,*/*"}
+# Fuller browser-like headers: Bandsintown (and friends) 403 the minimal
+# UA + Accept set. The sec-ch-ua / Sec-Fetch-* set below is what a real
+# Chrome 131 navigation sends; with it, plus retries in fetch(), the
+# Bandsintown venue pages answer often enough to be usable (verified
+# 2026-11-10: all four failing rooms returned 200 with parseable JSON-LD
+# within a few attempts). No Accept-Encoding header: urllib gets plain
+# text and needs no decompression handling.
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/131.0.0.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,"
+                "image/avif,image/webp,image/apng,*/*;q=0.8,"
+                "application/signed-exchange;v=b3;q=0.7",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Referer": "https://www.google.com/",
+      "Sec-Fetch-Dest": "document",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-User": "?1",
+      "Upgrade-Insecure-Requests": "1",
+      "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", '
+                   '"Not_A Brand";v="24"',
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": '"Windows"'}
 
 # ---------------------------------------------------------------- YAML (tiny)
 # The two YAML files in this project use a small, regular subset of YAML:
@@ -121,9 +143,22 @@ def save_cache(cache):
 # ---------------------------------------------------------------- fetching
 
 def fetch(url, timeout=30):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "ignore")
+    # Some hosts (notably Bandsintown) refuse intermittently — 403 one
+    # attempt, 200 the next — so retry a couple of times with a pause
+    # before giving up. The last error is re-raised so the build report
+    # still records the failure and the cache can cover it.
+    last_exc = None
+    for attempt in range(5):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", "ignore")
+        except (urllib.error.HTTPError, urllib.error.URLError,
+                ConnectionError) as e:
+            last_exc = e
+            if attempt < 4:
+                time.sleep(3)
+    raise last_exc
 
 def fetch_json(url, timeout=30):
     return json.loads(fetch(url, timeout))
