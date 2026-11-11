@@ -1,6 +1,6 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "Stutter/Step",
@@ -154,8 +154,18 @@
    }
   ]
  },
+ "AvantGarden": {
+  "as_of": "2026-11-11",
+  "shows": [
+   {
+    "artist": "Cyber Lounge at Avantgarden",
+    "date": "2026-11-17",
+    "venue": "AvantGarden"
+   }
+  ]
+ },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "All Axel",
@@ -175,7 +185,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "Let's Spend The Night Together with Good Vibes Acoustik, Spare Parts, and Special Guests",
@@ -230,13 +240,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
-   {
-    "artist": "Pegstar Concerts Presents:Pain of Truth",
-    "date": "2026-11-10",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Kurt Travis",
     "date": "2026-11-12",
@@ -555,13 +560,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
-   {
-    "artist": "Shawn Allen's Music Mixer & Jam",
-    "date": "2026-11-10",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Kristina Murray + Buffalo Galaxy at Dan Electros",
     "date": "2026-11-11",
@@ -890,7 +890,7 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "You Should Be Dancing - A Tribute To The Bee Gees",
@@ -1745,13 +1745,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
-   {
-    "artist": "Kerrville Winners",
-    "date": "2026-11-10",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Irish Session",
     "date": "2026-11-11",
@@ -1925,6 +1920,11 @@
    {
     "artist": "Ian Moore",
     "date": "2026-12-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Pat Byrne",
+    "date": "2026-12-12",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -2185,7 +2185,7 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
@@ -2265,7 +2265,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2310,7 +2310,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "The Stray Cats With Special Guest The Chins Chins",
@@ -2385,27 +2385,17 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
-   {
-    "artist": "YOU SHOULD BE DANCING A TRIBUTE TO THE BEE GEES",
-    "date": "2026-11-10",
-    "venue": "Stafford Centre"
-   },
    {
     "artist": "Jorge Luis Chacin",
     "date": "2026-11-13",
-    "venue": "Stafford Centre"
-   },
-   {
-    "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
-    "date": "2026-11-21",
     "venue": "Stafford Centre"
    }
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "Jiggy Zaza",
@@ -2418,8 +2408,8 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
-    "date": "2026-11-13",
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2428,8 +2418,8 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
+    "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
+    "date": "2026-11-13",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2540,13 +2530,8 @@
   ]
  },
  "The Continental Club": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
-   {
-    "artist": "454",
-    "date": "2026-11-10",
-    "venue": "The Continental Club"
-   },
    {
     "artist": "DOSSEY",
     "date": "2026-11-13",
@@ -2615,6 +2600,11 @@
    {
     "artist": "Alastair Greene",
     "date": "2027-01-30",
+    "venue": "The Continental Club"
+   },
+   {
+    "artist": "Nolan Taylor",
+    "date": "2027-02-04",
     "venue": "The Continental Club"
    },
    {
@@ -2834,14 +2824,29 @@
    }
   ]
  },
- "The Secret Group": {
-  "as_of": "2026-11-10",
+ "The Rustic (Post Oak)": {
+  "as_of": "2026-11-11",
   "shows": [
    {
-    "artist": "Post Animal: Maybe You Have To Tour",
-    "date": "2026-11-10",
-    "venue": "The Secret Group"
+    "artist": "Delaney Ann",
+    "date": "2026-11-21",
+    "venue": "The Rustic"
    },
+   {
+    "artist": "Patrick B Ray",
+    "date": "2026-12-10",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Susan Hickman",
+    "date": "2026-12-12",
+    "venue": "The Rustic"
+   }
+  ]
+ },
+ "The Secret Group": {
+  "as_of": "2026-11-11",
+  "shows": [
    {
     "artist": "Chrissy Chlapecka",
     "date": "2026-11-12",
@@ -2895,11 +2900,6 @@
    {
     "artist": "Madds Buckley",
     "date": "2027-02-05",
-    "venue": "The Secret Group"
-   },
-   {
-    "artist": "Post Animal: Maybe You Have To Tour",
-    "date": "2026-11-10",
     "venue": "The Secret Group"
    },
    {
@@ -3075,7 +3075,7 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
    {
     "artist": "Cem Adrian",
@@ -3120,18 +3120,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "shows": [
-   {
-    "artist": "(SOLD OUT) LIL PEEP 30TH BIRTHDAY CELEBRATION",
-    "date": "2026-11-10",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Paige Fish",
-    "date": "2026-11-10",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Bitch Cabal feat. Wednesday & Mannequin Pussy",
     "date": "2026-11-12",
@@ -3273,22 +3263,22 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Temachii",
-    "date": "2026-12-03",
-    "venue": "White Oak Music Hall"
-   },
-   {
     "artist": "The Black Angels",
     "date": "2026-12-03",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Bella White",
-    "date": "2026-12-06",
+    "artist": "Temachii",
+    "date": "2026-12-03",
     "venue": "White Oak Music Hall"
    },
    {
     "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "date": "2026-12-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Bella White",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
