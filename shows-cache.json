@@ -155,7 +155,7 @@
   ]
  },
  "AvantGarden": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "Cyber Lounge at Avantgarden",
@@ -165,7 +165,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,7 +185,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "Let's Spend The Night Together with Good Vibes Acoustik, Spare Parts, and Special Guests",
@@ -240,13 +240,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "Kurt Travis",
-    "date": "2026-11-12",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Friday the 13th Badass Tattoo Benefit for Santo's Sanctuary and Rescue",
     "date": "2026-11-13",
@@ -565,13 +560,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "Thursday Nights with Nether Hour + Honey Hounds",
-    "date": "2026-11-12",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "CLFA Happy Meowr",
     "date": "2026-11-13",
@@ -910,13 +900,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "You Should Be Dancing - A Tribute To The Bee Gees",
-    "date": "2026-11-12",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "Paul Thorn Band",
     "date": "2026-11-13",
@@ -1043,6 +1028,11 @@
     "venue": "Dosey Doe"
    },
    {
+    "artist": "Sarah Kelly Music School",
+    "date": "2027-01-03",
+    "venue": "Dosey Doe"
+   },
+   {
     "artist": "Sammy Arriaga",
     "date": "2027-01-07",
     "venue": "Dosey Doe"
@@ -1055,6 +1045,11 @@
    {
     "artist": "Back In Black (Tribute Band) - The True AC / DC Experience",
     "date": "2027-01-09",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Sarah Kelly Music School",
+    "date": "2027-01-10",
     "venue": "Dosey Doe"
    },
    {
@@ -1770,18 +1765,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "Scott Miller",
-    "date": "2026-11-12",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Sophie Gault featuring Garrett Owen",
-    "date": "2026-11-12",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Beat Root Revival",
     "date": "2026-11-13",
@@ -2206,11 +2191,16 @@
     "artist": "Max and Heather Stalling",
     "date": "2027-05-01",
     "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Goldpine",
+    "date": "2027-05-13",
+    "venue": "McGonigel's Mucky Duck"
    }
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
@@ -2290,7 +2280,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2335,13 +2325,8 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "The Stray Cats With Special Guest The Chins Chins",
-    "date": "2026-11-12",
-    "venue": "Smart Financial Centre"
-   },
    {
     "artist": "Intocable",
     "date": "2026-11-21",
@@ -2410,7 +2395,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "Jorge Luis Chacin",
@@ -2430,21 +2415,21 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
-    "artist": "Jiggy Zaza",
-    "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
+    "artist": "Houston Krampus Krampage",
+    "date": "2026-12-05",
     "venue": "Super Happy Fun Land"
    },
    {
     "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
     "date": "2026-11-13",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2458,8 +2443,8 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Houston Krampus Krampage",
-    "date": "2026-12-05",
+    "artist": "Manifesto",
+    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2860,7 +2845,7 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
    {
     "artist": "Delaney Ann",
@@ -2880,13 +2865,8 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "Chrissy Chlapecka",
-    "date": "2026-11-12",
-    "venue": "The Secret Group"
-   },
    {
     "artist": "AJJ",
     "date": "2026-11-13",
@@ -2940,11 +2920,6 @@
    {
     "artist": "Madds Buckley",
     "date": "2027-02-05",
-    "venue": "The Secret Group"
-   },
-   {
-    "artist": "Chrissy Chlapecka",
-    "date": "2026-11-12",
     "venue": "The Secret Group"
    },
    {
@@ -3120,13 +3095,8 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "Cem Adrian",
-    "date": "2026-11-12",
-    "venue": "Warehouse Live Midtown"
-   },
    {
     "artist": "Eelke Kleijn",
     "date": "2026-11-13",
@@ -3161,22 +3131,17 @@
     "artist": "Mor ve \u00d6tesi",
     "date": "2026-11-22",
     "venue": "Warehouse Live Midtown"
+   },
+   {
+    "artist": "Fetty P Franklin",
+    "date": "2026-11-25",
+    "venue": "Warehouse Live Midtown"
    }
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "shows": [
-   {
-    "artist": "Bitch Cabal feat. Wednesday & Mannequin Pussy",
-    "date": "2026-11-12",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "HOHYUN",
-    "date": "2026-11-12",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Breakaway Music Festival Houston 2026",
     "date": "2026-11-13",
@@ -3233,12 +3198,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Navan \u2013 Kisses on the Moon- Tour",
+    "artist": "Paul Cauthen",
     "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Paul Cauthen",
+    "artist": "Navan \u2013 Kisses on the Moon- Tour",
     "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
@@ -3318,12 +3283,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Bella White",
+    "artist": "Pi\u2019erre Bourne: Made In Paris",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "artist": "Bella White",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
@@ -3359,6 +3324,11 @@
    },
    {
     "artist": "(SOLD OUT) Lucy Bedroque",
+    "date": "2026-12-18",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Next Level K-Pop",
     "date": "2026-12-18",
     "venue": "White Oak Music Hall"
    },
