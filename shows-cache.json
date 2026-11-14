@@ -155,7 +155,7 @@
   ]
  },
  "AvantGarden": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
    {
     "artist": "Cyber Lounge at Avantgarden",
@@ -165,7 +165,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,13 +185,8 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Let's Spend The Night Together with Good Vibes Acoustik, Spare Parts, and Special Guests",
-    "date": "2026-11-13",
-    "venue": "BFE Rock Club"
-   },
    {
     "artist": "Shining Force's \"King David\" Release Party!",
     "date": "2026-11-14",
@@ -240,18 +235,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Friday the 13th Badass Tattoo Benefit for Santo's Sanctuary and Rescue",
-    "date": "2026-11-13",
-    "venue": "Bad Astronaut Brewing"
-   },
-   {
-    "artist": "Wolf & Bear",
-    "date": "2026-11-13",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Emo Night Homecoming",
     "date": "2026-11-14",
@@ -275,6 +260,11 @@
    {
     "artist": "Combat Sports 43",
     "date": "2026-11-20",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Pancakes and Booze",
+    "date": "2026-11-21",
     "venue": "Bad Astronaut Brewing"
    },
    {
@@ -313,6 +303,16 @@
     "venue": "Bad Astronaut Brewing"
    },
    {
+    "artist": "Upon A Burning Body",
+    "date": "2026-12-10",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Helstar and Night Cobra with Void Myth, Carver, & Tiny",
+    "date": "2026-12-11",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
     "artist": "Heartless Bastards \u2018All This Time\u2019 20th Anniversary",
     "date": "2026-12-12",
     "venue": "Bad Astronaut Brewing"
@@ -335,6 +335,11 @@
    {
     "artist": "ILUKA - The Wings Tour",
     "date": "2026-12-20",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "30footFall w / Wee Beasties, Dropped Out, and War Bride",
+    "date": "2026-12-25",
     "venue": "Bad Astronaut Brewing"
    },
    {
@@ -560,23 +565,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "CLFA Happy Meowr",
-    "date": "2026-11-13",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "DEADEYE (AUSTIN'S GRATEFUL DEAD TRIBUTE)",
-    "date": "2026-11-13",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "LATE NIGHT w/ The Showponies",
-    "date": "2026-11-13",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "TIME TO WALK AWAY Single Release Event DEAD BLINDS with JJ White + The Causeways",
     "date": "2026-11-14",
@@ -878,6 +868,11 @@
     "venue": "Dan Electro's"
    },
    {
+    "artist": "Leon III \"Candy Cigarettes\" Record Release",
+    "date": "2027-01-28",
+    "venue": "Dan Electro's"
+   },
+   {
     "artist": "Thursday Nights with Nether Hour 2/11",
     "date": "2027-02-11",
     "venue": "Dan Electro's"
@@ -900,13 +895,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Paul Thorn Band",
-    "date": "2026-11-13",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "Jon Wolfe",
     "date": "2026-11-14",
@@ -1765,18 +1755,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Beat Root Revival",
-    "date": "2026-11-13",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Nathan Quick",
-    "date": "2026-11-13",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Madam Radar",
     "date": "2026-11-14",
@@ -2148,6 +2128,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Beat Root Revival",
+    "date": "2027-02-26",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Mason Lively",
     "date": "2027-02-26",
     "venue": "McGonigel's Mucky Duck"
@@ -2160,6 +2145,11 @@
    {
     "artist": "Sam Robbins",
     "date": "2027-03-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Chloe Kimes",
+    "date": "2027-03-13",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -2200,13 +2190,8 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
-    "date": "2026-11-13",
-    "venue": "Numbers"
-   },
    {
     "artist": "Disco 300 w/ DJ JD Arnold!",
     "date": "2026-11-14",
@@ -2280,7 +2265,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2325,7 +2310,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
    {
     "artist": "Intocable",
@@ -2391,17 +2376,17 @@
     "artist": "Star Wars: A New Hope in Concert",
     "date": "2027-01-22",
     "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Gipsy Kings Featuring Nicolas Reyes",
+    "date": "2027-02-09",
+    "venue": "Smart Financial Centre"
    }
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Jorge Luis Chacin",
-    "date": "2026-11-13",
-    "venue": "Stafford Centre"
-   },
    {
     "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
     "date": "2026-11-21",
@@ -2415,26 +2400,11 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
    {
     "artist": "Houston Krampus Krampage",
     "date": "2026-12-05",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Iodine, Mercury, Silver Ace, Harlem Duck",
-    "date": "2026-11-13",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Jiggy Zaza",
-    "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Houston Art Crawl",
-    "date": "2026-11-21",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2445,6 +2415,16 @@
    {
     "artist": "Manifesto",
     "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Houston Art Crawl",
+    "date": "2026-11-21",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2645,18 +2625,8 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Fea",
-    "date": "2026-11-12",
-    "venue": "The End"
-   },
-   {
-    "artist": "Defiance",
-    "date": "2026-11-13",
-    "venue": "The End"
-   },
    {
     "artist": "BLOOD ON BOOTS",
     "date": "2026-11-14",
@@ -2690,6 +2660,11 @@
    {
     "artist": "Friend",
     "date": "2026-11-29",
+    "venue": "The End"
+   },
+   {
+    "artist": "ORIENA",
+    "date": "2026-12-03",
     "venue": "The End"
    },
    {
@@ -2845,7 +2820,7 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
    {
     "artist": "Delaney Ann",
@@ -2865,13 +2840,8 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "AJJ",
-    "date": "2026-11-13",
-    "venue": "The Secret Group"
-   },
    {
     "artist": "B6",
     "date": "2026-11-14",
@@ -2920,11 +2890,6 @@
    {
     "artist": "Madds Buckley",
     "date": "2027-02-05",
-    "venue": "The Secret Group"
-   },
-   {
-    "artist": "AJJ",
-    "date": "2026-11-13",
     "venue": "The Secret Group"
    },
    {
@@ -3095,21 +3060,11 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Eelke Kleijn",
-    "date": "2026-11-13",
-    "venue": "Warehouse Live Midtown"
-   },
    {
     "artist": "Streetlight Manifesto",
     "date": "2026-11-14",
-    "venue": "Warehouse Live Midtown"
-   },
-   {
-    "artist": "Helado Negro, Reyna Tropical",
-    "date": "2026-11-16",
     "venue": "Warehouse Live Midtown"
    },
    {
@@ -3136,27 +3091,22 @@
     "artist": "Fetty P Franklin",
     "date": "2026-11-25",
     "venue": "Warehouse Live Midtown"
+   },
+   {
+    "artist": "Born of Osiris, Miss May I",
+    "date": "2026-11-27",
+    "venue": "Warehouse Live Midtown"
+   },
+   {
+    "artist": "Inquisitive",
+    "date": "2026-11-28",
+    "venue": "Warehouse Live Midtown"
    }
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "shows": [
-   {
-    "artist": "Breakaway Music Festival Houston 2026",
-    "date": "2026-11-13",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Icon for Hire: Scripted 15 Year Anniversary Tour",
-    "date": "2026-11-13",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "80s AND BEYOND",
-    "date": "2026-11-13",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "House of Heavy",
     "date": "2026-11-14",
@@ -3183,12 +3133,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Cannelle",
+    "artist": "Holywatr: Deo Gratias Tour",
     "date": "2026-11-17",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Holywatr: Deo Gratias Tour",
+    "artist": "Cannelle",
     "date": "2026-11-17",
     "venue": "White Oak Music Hall"
    },
@@ -3253,12 +3203,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Gimme Gimme Disco",
+    "artist": "2000\u2019s Rave",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "2000\u2019s Rave",
+    "artist": "Gimme Gimme Disco",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
@@ -3320,6 +3270,11 @@
    {
     "artist": "(RESCHEDULED) ROA: USA Tour",
     "date": "2026-12-16",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "ROA: USA Tour",
+    "date": "2026-12-17",
     "venue": "White Oak Music Hall"
    },
    {
