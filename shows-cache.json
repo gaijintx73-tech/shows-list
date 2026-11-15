@@ -155,7 +155,7 @@
   ]
  },
  "AvantGarden": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
    {
     "artist": "Cyber Lounge at Avantgarden",
@@ -165,7 +165,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,13 +185,8 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "Shining Force's \"King David\" Release Party!",
-    "date": "2026-11-14",
-    "venue": "BFE Rock Club"
-   },
    {
     "artist": "3 Years Hollow, Trackside, Awaken The Giant",
     "date": "2026-11-15",
@@ -231,17 +226,17 @@
     "artist": "White Open Throttle Christmas Pre-Party",
     "date": "2026-12-11",
     "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "18th Annual White Open Throttle Christmas Toys For Tots Benefit",
+    "date": "2026-12-12",
+    "venue": "BFE Rock Club"
    }
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "Emo Night Homecoming",
-    "date": "2026-11-14",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Prince Daddy & The Hyena",
     "date": "2026-11-15",
@@ -565,18 +560,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "TIME TO WALK AWAY Single Release Event DEAD BLINDS with JJ White + The Causeways",
-    "date": "2026-11-14",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "NIGHT DRIVE + Spellsword + 6StringHellion",
-    "date": "2026-11-14",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "ESPRESSO ROCK - Italian Rock, No Sugar!",
     "date": "2026-11-15",
@@ -895,13 +880,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "Jon Wolfe",
-    "date": "2026-11-14",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "William Elliott Whitmore",
     "date": "2026-11-15",
@@ -1755,18 +1735,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "Madam Radar",
-    "date": "2026-11-14",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Two Tons of Steel",
-    "date": "2026-11-14",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Open Mic",
     "date": "2026-11-16",
@@ -2149,7 +2119,7 @@
    },
    {
     "artist": "Chloe Kimes",
-    "date": "2027-03-13",
+    "date": "2027-03-05",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -2190,13 +2160,8 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "Disco 300 w/ DJ JD Arnold!",
-    "date": "2026-11-14",
-    "venue": "Numbers"
-   },
    {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
     "date": "2026-11-20",
@@ -2265,7 +2230,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2310,7 +2275,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
    {
     "artist": "Intocable",
@@ -2385,7 +2350,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
    {
     "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
@@ -2400,11 +2365,11 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
    {
-    "artist": "Houston Krampus Krampage",
-    "date": "2026-12-05",
+    "artist": "Manifesto",
+    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2413,13 +2378,13 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
+    "artist": "Houston Art Crawl",
+    "date": "2026-11-21",
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Houston Art Crawl",
-    "date": "2026-11-21",
+    "artist": "Houston Krampus Krampage",
+    "date": "2026-12-05",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2840,13 +2805,8 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "B6",
-    "date": "2026-11-14",
-    "venue": "The Secret Group"
-   },
    {
     "artist": "Distant: Into Despair US Tour",
     "date": "2026-11-17",
@@ -2890,11 +2850,6 @@
    {
     "artist": "Madds Buckley",
     "date": "2027-02-05",
-    "venue": "The Secret Group"
-   },
-   {
-    "artist": "B6",
-    "date": "2026-11-14",
     "venue": "The Secret Group"
    },
    {
@@ -3060,13 +3015,8 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "Streetlight Manifesto",
-    "date": "2026-11-14",
-    "venue": "Warehouse Live Midtown"
-   },
    {
     "artist": "Premo Rice",
     "date": "2026-11-19",
@@ -3101,22 +3051,17 @@
     "artist": "Inquisitive",
     "date": "2026-11-28",
     "venue": "Warehouse Live Midtown"
+   },
+   {
+    "artist": "Brother Cane",
+    "date": "2026-12-02",
+    "venue": "Warehouse Live Midtown"
    }
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "shows": [
-   {
-    "artist": "House of Heavy",
-    "date": "2026-11-14",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Breakaway Houston 2026 Official After Party ft. Know Good",
-    "date": "2026-11-14",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Andrew Garden & Midnight Beverage",
     "date": "2026-11-15",
@@ -3203,12 +3148,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "2000\u2019s Rave",
+    "artist": "Gimme Gimme Disco",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Gimme Gimme Disco",
+    "artist": "2000\u2019s Rave",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
