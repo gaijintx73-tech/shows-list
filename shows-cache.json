@@ -1,12 +1,7 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-16",
   "shows": [
-   {
-    "artist": "Stutter/Step",
-    "date": "2026-11-14",
-    "venue": "1810 Ojeman"
-   },
    {
     "artist": "Minka",
     "date": "2026-11-18",
@@ -155,7 +150,7 @@
   ]
  },
  "AvantGarden": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Cyber Lounge at Avantgarden",
@@ -165,7 +160,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,13 +180,8 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
-   {
-    "artist": "3 Years Hollow, Trackside, Awaken The Giant",
-    "date": "2026-11-15",
-    "venue": "BFE Rock Club"
-   },
    {
     "artist": "Iperion, SplitGrin, Krimson, Distartica, Peace Attack",
     "date": "2026-11-20",
@@ -231,17 +221,17 @@
     "artist": "18th Annual White Open Throttle Christmas Toys For Tots Benefit",
     "date": "2026-12-12",
     "venue": "BFE Rock Club"
+   },
+   {
+    "artist": "The Return of Hold On Hollywood",
+    "date": "2026-12-26",
+    "venue": "BFE Rock Club"
    }
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
-   {
-    "artist": "Prince Daddy & The Hyena",
-    "date": "2026-11-15",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "King Buffalo with L.A. WITCH",
     "date": "2026-11-17",
@@ -560,18 +550,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
-   {
-    "artist": "ESPRESSO ROCK - Italian Rock, No Sugar!",
-    "date": "2026-11-15",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "Sunday the Almost 13th!",
-    "date": "2026-11-15",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Women In Industry Happy Hour",
     "date": "2026-11-16",
@@ -880,13 +860,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
-   {
-    "artist": "William Elliott Whitmore",
-    "date": "2026-11-15",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "Beatles vs. Stones - A Musical Showdown",
     "date": "2026-11-19",
@@ -1735,7 +1710,7 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Open Mic",
@@ -1973,6 +1948,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Folk. Marry. Kill",
+    "date": "2027-01-09",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Griffin House",
     "date": "2027-01-14",
     "venue": "McGonigel's Mucky Duck"
@@ -2160,7 +2140,7 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
@@ -2230,7 +2210,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2275,7 +2255,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Intocable",
@@ -2350,7 +2330,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
@@ -2361,25 +2341,20 @@
     "artist": "Move Dance Family 6th Annual Nutcracker Production",
     "date": "2026-11-28",
     "venue": "Stafford Centre"
+   },
+   {
+    "artist": "Darci Lynne and Friends: 2026 Christmas Tour",
+    "date": "2026-12-03",
+    "venue": "Stafford Centre"
    }
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Manifesto",
     "date": "2026-11-29",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Houston Art Crawl",
-    "date": "2026-11-21",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2390,6 +2365,16 @@
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Houston Art Crawl",
+    "date": "2026-11-21",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2785,7 +2770,7 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Delaney Ann",
@@ -2805,7 +2790,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Distant: Into Despair US Tour",
@@ -3015,7 +3000,7 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
    {
     "artist": "Premo Rice",
@@ -3060,18 +3045,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "shows": [
-   {
-    "artist": "Andrew Garden & Midnight Beverage",
-    "date": "2026-11-15",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Emma Ogier",
-    "date": "2026-11-15",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Keenan Te",
     "date": "2026-11-16",
@@ -3093,12 +3068,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Paul Cauthen",
+    "artist": "Navan \u2013 Kisses on the Moon- Tour",
     "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Navan \u2013 Kisses on the Moon- Tour",
+    "artist": "Paul Cauthen",
     "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
@@ -3133,12 +3108,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Diles Que No Me Maten",
+    "artist": "King of Drag: The Royal Tour",
     "date": "2026-11-24",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "King of Drag: The Royal Tour",
+    "artist": "Diles Que No Me Maten",
     "date": "2026-11-24",
     "venue": "White Oak Music Hall"
    },
@@ -3178,12 +3153,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "artist": "Bella White",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Bella White",
+    "artist": "Pi\u2019erre Bourne: Made In Paris",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
@@ -3193,12 +3168,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "DJ Meredith Marks: YOU. CAN. DANCE. TOUR Season 7 Watch Party",
+    "artist": "james K",
     "date": "2026-12-09",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "james K",
+    "artist": "DJ Meredith Marks: YOU. CAN. DANCE. TOUR Season 7 Watch Party",
     "date": "2026-12-09",
     "venue": "White Oak Music Hall"
    },
