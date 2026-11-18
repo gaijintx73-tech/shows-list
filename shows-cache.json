@@ -160,7 +160,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,7 +185,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "Iperion, SplitGrin, Krimson, Distartica, Peace Attack",
@@ -235,13 +235,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
-   {
-    "artist": "King Buffalo with L.A. WITCH",
-    "date": "2026-11-17",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "The Floozies",
     "date": "2026-11-19",
@@ -555,20 +550,15 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
-   {
-    "artist": "Shawn Allen's Music Mixer & Jam",
-    "date": "2026-11-17",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Synergy One Lending Happy Hour",
     "date": "2026-11-18",
     "venue": "Dan Electro's"
    },
    {
-    "artist": "Hogg Middle School Fundraiser",
+    "artist": "Heights High School Band Parents Spirit Night",
     "date": "2026-11-18",
     "venue": "Dan Electro's"
    },
@@ -788,6 +778,11 @@
     "venue": "Dan Electro's"
    },
    {
+    "artist": "The Monicas No More Xmas 90\u2019s Bash! w/ Starleague",
+    "date": "2026-12-26",
+    "venue": "Dan Electro's"
+   },
+   {
     "artist": "Boomtown Dance Party!",
     "date": "2026-12-28",
     "venue": "Dan Electro's"
@@ -860,7 +855,7 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "Beatles vs. Stones - A Musical Showdown",
@@ -1043,6 +1038,11 @@
     "venue": "Dosey Doe"
    },
    {
+    "artist": "Grady Spencer & The Vegabonds",
+    "date": "2027-01-28",
+    "venue": "Dosey Doe"
+   },
+   {
     "artist": "Scotty Alexander",
     "date": "2027-02-06",
     "venue": "Dosey Doe"
@@ -1063,11 +1063,6 @@
     "venue": "Dosey Doe"
    },
    {
-    "artist": "A Man Named Cash - Tribute to Johnny Cash & June Carter Cash",
-    "date": "2027-02-27",
-    "venue": "Dosey Doe"
-   },
-   {
     "artist": "Cote Deonath \u201cUltimate Elvis Tribute World Champion\u201d",
     "date": "2027-02-28",
     "venue": "Dosey Doe"
@@ -1075,6 +1070,11 @@
    {
     "artist": "Kyle Park",
     "date": "2027-03-05",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "A Man Named Cash - Tribute to Johnny Cash & June Carter Cash",
+    "date": "2027-03-06",
     "venue": "Dosey Doe"
    },
    {
@@ -1715,13 +1715,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
-   {
-    "artist": "Sarah Lee Guthrie",
-    "date": "2026-11-17",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Irish Session",
     "date": "2026-11-18",
@@ -2215,7 +2210,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2260,7 +2255,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "Intocable",
@@ -2330,7 +2325,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
@@ -2350,21 +2345,16 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
-   {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
-    "venue": "Super Happy Fun Land"
-   },
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2373,13 +2363,18 @@
     "venue": "Super Happy Fun Land"
    },
    {
+    "artist": "Houston Krampus Krampage",
+    "date": "2026-12-05",
+    "venue": "Super Happy Fun Land"
+   },
+   {
     "artist": "Houston Art Crawl",
     "date": "2026-11-21",
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Houston Krampus Krampage",
-    "date": "2026-12-05",
+    "artist": "Manifesto",
+    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2785,13 +2780,8 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
-   {
-    "artist": "Distant: Into Despair US Tour",
-    "date": "2026-11-17",
-    "venue": "The Secret Group"
-   },
    {
     "artist": "Leanna Firestone",
     "date": "2026-11-25",
@@ -2830,11 +2820,6 @@
    {
     "artist": "Madds Buckley",
     "date": "2027-02-05",
-    "venue": "The Secret Group"
-   },
-   {
-    "artist": "Distant: Into Despair US Tour",
-    "date": "2026-11-17",
     "venue": "The Secret Group"
    },
    {
@@ -2995,7 +2980,7 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
    {
     "artist": "Premo Rice",
@@ -3040,26 +3025,11 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "shows": [
-   {
-    "artist": "Holywatr: Deo Gratias Tour",
-    "date": "2026-11-17",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Cannelle",
-    "date": "2026-11-17",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "LIIM: LE MONDE EST \u00c0 NOUS",
     "date": "2026-11-18",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Paul Cauthen",
-    "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
    {
@@ -3068,8 +3038,8 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "George Clanton",
-    "date": "2026-11-20",
+    "artist": "Paul Cauthen",
+    "date": "2026-11-19",
     "venue": "White Oak Music Hall"
    },
    {
@@ -3113,12 +3083,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "2000\u2019s Rave",
+    "artist": "Gimme Gimme Disco",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Gimme Gimme Disco",
+    "artist": "2000\u2019s Rave",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
@@ -3168,12 +3138,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
+    "artist": "twen + Mini Trees",
     "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "twen + Mini Trees",
+    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
     "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
@@ -3308,6 +3278,11 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "The Strike",
+    "date": "2027-03-04",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "Beach Bunny: Out of Office Tour",
     "date": "2027-03-05",
     "venue": "White Oak Music Hall"
@@ -3330,6 +3305,11 @@
    {
     "artist": "Jack & Jack",
     "date": "2027-03-07",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Midrift",
+    "date": "2027-03-10",
     "venue": "White Oak Music Hall"
    },
    {
@@ -3363,12 +3343,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Noah Rinker",
+    "artist": "Cursive",
     "date": "2027-03-25",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Cursive",
+    "artist": "Noah Rinker",
     "date": "2027-03-25",
     "venue": "White Oak Music Hall"
    },
@@ -3398,6 +3378,11 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "CHVRCHES LIVE 2027",
+    "date": "2027-04-09",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "My New Band Believe",
     "date": "2027-04-10",
     "venue": "White Oak Music Hall"
@@ -3413,6 +3398,11 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "Narrow Head",
+    "date": "2027-04-16",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "Mei Semones",
     "date": "2027-04-16",
     "venue": "White Oak Music Hall"
@@ -3425,6 +3415,11 @@
    {
     "artist": "SHYGIRL \u2013 SWALLOW! LIVE",
     "date": "2027-04-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Akriila",
+    "date": "2027-04-24",
     "venue": "White Oak Music Hall"
    },
    {
@@ -3453,7 +3448,7 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "DJ Shadow Celebrates 30 Years of Entroducing",
+    "artist": "DJ Shadow Celebrates 30 Years of Endtroducing",
     "date": "2027-05-07",
     "venue": "White Oak Music Hall"
    },
