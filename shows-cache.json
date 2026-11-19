@@ -160,7 +160,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,7 +185,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Iperion, SplitGrin, Krimson, Distartica, Peace Attack",
@@ -235,7 +235,7 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "The Floozies",
@@ -550,23 +550,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
-   {
-    "artist": "Synergy One Lending Happy Hour",
-    "date": "2026-11-18",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "Heights High School Band Parents Spirit Night",
-    "date": "2026-11-18",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "Whiskey Wednesday w/ Christopher Seymore & The Slow Hands",
-    "date": "2026-11-18",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Darius Jackson Live at Dan Electros",
     "date": "2026-11-19",
@@ -855,7 +840,7 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Beatles vs. Stones - A Musical Showdown",
@@ -1043,6 +1028,11 @@
     "venue": "Dosey Doe"
    },
    {
+    "artist": "East Texas Ramblers",
+    "date": "2027-01-31",
+    "venue": "Dosey Doe"
+   },
+   {
     "artist": "Scotty Alexander",
     "date": "2027-02-06",
     "venue": "Dosey Doe"
@@ -1140,6 +1130,11 @@
    {
     "artist": "The Texas Tenors",
     "date": "2027-04-11",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "The LefTobers featuring Ross Clayton",
+    "date": "2027-04-17",
     "venue": "Dosey Doe"
    },
    {
@@ -1715,13 +1710,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
-   {
-    "artist": "Irish Session",
-    "date": "2026-11-18",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Chris Duarte & Jelly Ellington",
     "date": "2026-11-19",
@@ -1968,6 +1958,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Caleb Montgomery",
+    "date": "2027-01-21",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "West Texas Exiles",
     "date": "2027-01-22",
     "venue": "McGonigel's Mucky Duck"
@@ -2140,7 +2135,7 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
@@ -2183,6 +2178,11 @@
     "venue": "Numbers"
    },
    {
+    "artist": "Disco 300 w/ DJ JD Arnold!",
+    "date": "2026-12-12",
+    "venue": "Numbers"
+   },
+   {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
     "date": "2026-12-18",
     "venue": "Numbers"
@@ -2210,7 +2210,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2255,7 +2255,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Intocable",
@@ -2325,7 +2325,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
@@ -2345,8 +2345,23 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
+   {
+    "artist": "Houston Art Crawl",
+    "date": "2026-11-21",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "DJ Jalon Archie , 1st set at 7 p.m., 2nd set at 9 p.m.",
+    "date": "2026-11-20",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
@@ -2358,23 +2373,8 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "DJ Jalon Archie , 1st set at 7 p.m., 2nd set at 9 p.m.",
-    "date": "2026-11-20",
-    "venue": "Super Happy Fun Land"
-   },
-   {
     "artist": "Houston Krampus Krampage",
     "date": "2026-12-05",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Houston Art Crawl",
-    "date": "2026-11-21",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2575,13 +2575,8 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "shows": [
-   {
-    "artist": "Chamber",
-    "date": "2026-11-17",
-    "venue": "The End"
-   },
    {
     "artist": "Redder Moon",
     "date": "2026-11-19",
@@ -2613,12 +2608,12 @@
     "venue": "The End"
    },
    {
-    "artist": "Dead Things",
+    "artist": "Silvertung",
     "date": "2026-12-08",
     "venue": "The End"
    },
    {
-    "artist": "Silvertung",
+    "artist": "Dead Things",
     "date": "2026-12-08",
     "venue": "The End"
    },
@@ -2653,13 +2648,13 @@
     "venue": "The End"
    },
    {
-    "artist": "Moondough",
-    "date": "2026-12-21",
+    "artist": "Big D and the Kids Table",
+    "date": "2027-01-10",
     "venue": "The End"
    },
    {
-    "artist": "Big D and the Kids Table",
-    "date": "2027-01-10",
+    "artist": "Gene Ross",
+    "date": "2027-01-13",
     "venue": "The End"
    },
    {
@@ -2760,7 +2755,7 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Delaney Ann",
@@ -2780,7 +2775,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Leanna Firestone",
@@ -2980,7 +2975,7 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
    {
     "artist": "Premo Rice",
@@ -3025,13 +3020,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "shows": [
-   {
-    "artist": "LIIM: LE MONDE EST \u00c0 NOUS",
-    "date": "2026-11-18",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Navan \u2013 Kisses on the Moon- Tour",
     "date": "2026-11-19",
@@ -3068,12 +3058,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Diles Que No Me Maten",
+    "artist": "King of Drag: The Royal Tour",
     "date": "2026-11-24",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "King of Drag: The Royal Tour",
+    "artist": "Diles Que No Me Maten",
     "date": "2026-11-24",
     "venue": "White Oak Music Hall"
    },
@@ -3083,12 +3073,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Gimme Gimme Disco",
+    "artist": "2000\u2019s Rave",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "2000\u2019s Rave",
+    "artist": "Gimme Gimme Disco",
     "date": "2026-11-28",
     "venue": "White Oak Music Hall"
    },
@@ -3113,12 +3103,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Bella White",
+    "artist": "Pi\u2019erre Bourne: Made In Paris",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "artist": "Bella White",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
@@ -3220,6 +3210,11 @@
    {
     "artist": "Jon Spencer",
     "date": "2027-01-29",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Hotboii: Kut Da Fan On Tour",
+    "date": "2027-02-02",
     "venue": "White Oak Music Hall"
    },
    {
