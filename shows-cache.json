@@ -160,7 +160,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "All Axel",
@@ -185,7 +185,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "Iperion, SplitGrin, Krimson, Distartica, Peace Attack",
@@ -235,13 +235,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
-   {
-    "artist": "The Floozies",
-    "date": "2026-11-19",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Combat Sports 43",
     "date": "2026-11-20",
@@ -335,6 +330,11 @@
    {
     "artist": "Bonsai Bar Every 2nd Saturday and 4th Tuesday",
     "date": "2026-12-28",
+    "venue": "Bad Astronaut Brewing"
+   },
+   {
+    "artist": "Kody West",
+    "date": "2027-01-23",
     "venue": "Bad Astronaut Brewing"
    },
    {
@@ -550,13 +550,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
-   {
-    "artist": "Darius Jackson Live at Dan Electros",
-    "date": "2026-11-19",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "LOVE BUCKET",
     "date": "2026-11-21",
@@ -643,6 +638,11 @@
     "venue": "Dan Electro's"
    },
    {
+    "artist": "Guy Vincent",
+    "date": "2026-12-02",
+    "venue": "Dan Electro's"
+   },
+   {
     "artist": "Joe Marcinek Band",
     "date": "2026-12-03",
     "venue": "Dan Electro's"
@@ -655,6 +655,11 @@
    {
     "artist": "Emo Night Houston: Nightmare Before Christmas",
     "date": "2026-12-05",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Femme & Fury Sunday",
+    "date": "2026-12-06",
     "venue": "Dan Electro's"
    },
    {
@@ -723,6 +728,11 @@
     "venue": "Dan Electro's"
    },
    {
+    "artist": "Ellis Bullard\u2019s Honky Tonk Jamboree",
+    "date": "2026-12-17",
+    "venue": "Dan Electro's"
+   },
+   {
     "artist": "EZ Band Live at Dan Electro's",
     "date": "2026-12-18",
     "venue": "Dan Electro's"
@@ -773,11 +783,6 @@
     "venue": "Dan Electro's"
    },
    {
-    "artist": "Royal Dukes DJ/Band Hybrid Showcase",
-    "date": "2026-12-28",
-    "venue": "Dan Electro's"
-   },
-   {
     "artist": "Karaoke Mondays",
     "date": "2026-12-28",
     "venue": "Dan Electro's"
@@ -808,11 +813,6 @@
     "venue": "Dan Electro's"
    },
    {
-    "artist": "HeartByrne",
-    "date": "2027-01-15",
-    "venue": "Dan Electro's"
-   },
-   {
     "artist": "Leon III \"Candy Cigarettes\" Record Release",
     "date": "2027-01-28",
     "venue": "Dan Electro's"
@@ -840,13 +840,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
-   {
-    "artist": "Beatles vs. Stones - A Musical Showdown",
-    "date": "2026-11-19",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "Zoso - The Ultimate Led Zeppelin Experience",
     "date": "2026-11-20",
@@ -1710,18 +1705,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
-   {
-    "artist": "Chris Duarte & Jelly Ellington",
-    "date": "2026-11-19",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Sundance Head",
-    "date": "2026-11-19",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Pat Byrne & Gr\u00e1inne Hunt",
     "date": "2026-11-20",
@@ -1778,6 +1763,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Irish Session",
+    "date": "2026-12-02",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Walt & Tina Wilkins",
     "date": "2026-12-03",
     "venue": "McGonigel's Mucky Duck"
@@ -1805,6 +1795,11 @@
    {
     "artist": "Sunny Sweeney",
     "date": "2026-12-05",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Open Mic",
+    "date": "2026-12-07",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1848,6 +1843,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2026-12-14",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Trish & Darin",
     "date": "2026-12-15",
     "venue": "McGonigel's Mucky Duck"
@@ -1878,8 +1878,18 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2026-12-21",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Bill Kirchen",
     "date": "2026-12-22",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2026-12-23",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1888,8 +1898,18 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2026-12-28",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Hadden Sayers",
     "date": "2026-12-29",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2026-12-30",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1908,8 +1928,18 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2027-01-04",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Al Staehely",
     "date": "2027-01-05",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2027-01-06",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1938,6 +1968,16 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2027-01-11",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2027-01-13",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Griffin House",
     "date": "2027-01-14",
     "venue": "McGonigel's Mucky Duck"
@@ -1953,8 +1993,18 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2027-01-18",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Guthrie Family Singers - Sarah Lee, Serena, Robin",
     "date": "2027-01-19",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2027-01-20",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1973,6 +2023,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2027-01-25",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Kevin Russell",
     "date": "2027-01-26",
     "venue": "McGonigel's Mucky Duck"
@@ -1980,6 +2035,11 @@
    {
     "artist": "Kevin Russell",
     "date": "2027-01-26",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2027-01-27",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -1998,8 +2058,18 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Open Mic",
+    "date": "2027-02-01",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "The Flinns",
     "date": "2027-02-02",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
+    "artist": "Irish Session",
+    "date": "2027-02-03",
     "venue": "McGonigel's Mucky Duck"
    },
    {
@@ -2135,7 +2205,7 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
@@ -2210,7 +2280,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
@@ -2255,7 +2325,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "Intocable",
@@ -2325,7 +2395,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
@@ -2345,28 +2415,8 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
-   {
-    "artist": "Houston Art Crawl",
-    "date": "2026-11-21",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "DJ Jalon Archie , 1st set at 7 p.m., 2nd set at 9 p.m.",
-    "date": "2026-11-20",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Jiggy Zaza",
-    "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
    {
     "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
     "date": "2026-11-28",
@@ -2375,6 +2425,26 @@
    {
     "artist": "Houston Krampus Krampage",
     "date": "2026-12-05",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "DJ Jalon Archie , 1st set at 7 p.m., 2nd set at 9 p.m.",
+    "date": "2026-11-20",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Houston Art Crawl",
+    "date": "2026-11-21",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2775,7 +2845,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
    {
     "artist": "Leanna Firestone",
@@ -3020,18 +3090,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "shows": [
-   {
-    "artist": "Navan \u2013 Kisses on the Moon- Tour",
-    "date": "2026-11-19",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Paul Cauthen",
-    "date": "2026-11-19",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Lights & Apparitions w/ Vehement Burn, Khepera",
     "date": "2026-11-20",
@@ -3058,12 +3118,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "King of Drag: The Royal Tour",
+    "artist": "Diles Que No Me Maten",
     "date": "2026-11-24",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Diles Que No Me Maten",
+    "artist": "King of Drag: The Royal Tour",
     "date": "2026-11-24",
     "venue": "White Oak Music Hall"
    },
@@ -3128,12 +3188,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "twen + Mini Trees",
+    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
     "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
+    "artist": "twen + Mini Trees",
     "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
@@ -3195,6 +3255,11 @@
    {
     "artist": "Emo Night Brooklyn",
     "date": "2027-01-15",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "THE TRL PARTY: The Ultimate 2000\u2019s Throwback Party",
+    "date": "2027-01-16",
     "venue": "White Oak Music Hall"
    },
    {
@@ -3278,12 +3343,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Beach Bunny: Out of Office Tour",
+    "artist": "Radio Free Alice",
     "date": "2027-03-05",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Radio Free Alice",
+    "artist": "Beach Bunny: Out of Office Tour",
     "date": "2027-03-05",
     "venue": "White Oak Music Hall"
    },
@@ -3338,12 +3403,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Cursive",
+    "artist": "Noah Rinker",
     "date": "2027-03-25",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Noah Rinker",
+    "artist": "Cursive",
     "date": "2027-03-25",
     "venue": "White Oak Music Hall"
    },
@@ -3413,12 +3478,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Akriila",
+    "artist": "Terrian \u2013 Mad Big World Tour",
     "date": "2027-04-24",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Terrian \u2013 Mad Big World Tour",
+    "artist": "Akriila",
     "date": "2027-04-24",
     "venue": "White Oak Music Hall"
    },
