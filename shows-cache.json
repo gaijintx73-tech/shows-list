@@ -155,7 +155,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
     "artist": "Main Stage",
@@ -175,13 +175,8 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Through Your Eyes, Lightforce, Beholder, Twin Sunns, Heaven is Sleeping",
-    "date": "2026-11-21",
-    "venue": "BFE Rock Club"
-   },
    {
     "artist": "Rock En Espanol with Satri, Falsa Realidad, Super Pop, PoetiX",
     "date": "2026-11-27",
@@ -220,13 +215,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Pancakes and Booze",
-    "date": "2026-11-21",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Jejune with The Ritornello Form",
     "date": "2026-11-22",
@@ -535,18 +525,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "LOVE BUCKET",
-    "date": "2026-11-21",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "BAYOU BANG-A-RANG! With THE BANDULUS & DEM ROOTS MUSIC",
-    "date": "2026-11-21",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Paige Lewis Album Release Show",
     "date": "2026-11-22",
@@ -825,13 +805,8 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Kate Watson of American Idol",
-    "date": "2026-11-21",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "Larry, Steve and Rudy: The Gatlin Brothers",
     "date": "2026-11-22",
@@ -1690,18 +1665,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "The Texas Turbines",
-    "date": "2026-11-21",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Jazz Night with Montagem",
-    "date": "2026-11-21",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Open Mic",
     "date": "2026-11-23",
@@ -2190,13 +2155,8 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Underworld\u2019s Monthly Bash!",
-    "date": "2026-11-21",
-    "venue": "Numbers"
-   },
    {
     "artist": "Classic Numbers Black Celebration!",
     "date": "2026-11-27",
@@ -2260,11 +2220,16 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Luke Abranches & Wyatt Feegrado: Sibling Rivalry Tour",
-    "date": "2026-11-20",
+    "artist": "Blair Socci - Friday 7:30",
+    "date": "2026-12-04",
+    "venue": "Rudyard's"
+   },
+   {
+    "artist": "Blair Socci - Friday 9:30",
+    "date": "2026-12-04",
     "venue": "Rudyard's"
    }
   ]
@@ -2305,13 +2270,8 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Intocable",
-    "date": "2026-11-21",
-    "venue": "Smart Financial Centre"
-   },
    {
     "artist": "Yuri & Lucero",
     "date": "2026-11-27",
@@ -2371,17 +2331,17 @@
     "artist": "Star Wars: A New Hope in Concert",
     "date": "2027-01-22",
     "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Gipsy Kings Featuring Nicolas Reyes",
+    "date": "2027-02-09",
+    "venue": "Smart Financial Centre"
    }
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Grand Kyiv Ballet- Swan Lake: Symphony of Lights",
-    "date": "2026-11-21",
-    "venue": "Stafford Centre"
-   },
    {
     "artist": "Move Dance Family 6th Annual Nutcracker Production",
     "date": "2026-11-28",
@@ -2391,11 +2351,16 @@
     "artist": "Darci Lynne and Friends: 2026 Christmas Tour",
     "date": "2026-12-03",
     "venue": "Stafford Centre"
+   },
+   {
+    "artist": "Fort Bend Symphony Orchestra and Chorus - Deck the Halls",
+    "date": "2026-12-06",
+    "venue": "Stafford Centre"
    }
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
     "artist": "Manifesto",
@@ -2415,11 +2380,6 @@
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Houston Art Crawl",
-    "date": "2026-11-21",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2930,7 +2890,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
     "artist": "Leanna Firestone",
@@ -3130,13 +3090,8 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "A Drake, OVO & Houston Hip-Hop Classics Party",
-    "date": "2026-11-21",
-    "venue": "Warehouse Live Midtown"
-   },
    {
     "artist": "Mor ve \u00d6tesi",
     "date": "2026-11-22",
@@ -3166,22 +3121,17 @@
     "artist": "SVDDEN DEATH",
     "date": "2026-12-04",
     "venue": "Warehouse Live Midtown"
+   },
+   {
+    "artist": "Trapt",
+    "date": "2026-12-06",
+    "venue": "Warehouse Live Midtown"
    }
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Aterciopelados: La Pipa De La Paz 30 A\u00f1os Tour",
-    "date": "2026-11-21",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Broadway Rave",
-    "date": "2026-11-21",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Static Dress \u2013 Injury Episode USA Tour",
     "date": "2026-11-22",
@@ -3223,22 +3173,22 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Temachii",
-    "date": "2026-12-03",
-    "venue": "White Oak Music Hall"
-   },
-   {
     "artist": "The Black Angels",
     "date": "2026-12-03",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Bella White",
-    "date": "2026-12-06",
+    "artist": "Temachii",
+    "date": "2026-12-03",
     "venue": "White Oak Music Hall"
    },
    {
     "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "date": "2026-12-06",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Bella White",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
@@ -3558,12 +3508,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Akriila",
+    "artist": "Terrian \u2013 Mad Big World Tour",
     "date": "2027-04-24",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Terrian \u2013 Mad Big World Tour",
+    "artist": "Akriila",
     "date": "2027-04-24",
     "venue": "White Oak Music Hall"
    },
@@ -3595,6 +3545,11 @@
    {
     "artist": "Gavin Adcock: The Day I Hang It Up Tour 2027",
     "date": "2027-05-08",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Dillom",
+    "date": "2027-05-22",
     "venue": "White Oak Music Hall"
    }
   ]
