@@ -1,42 +1,22 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "John MBK",
-    "date": "2026-11-27",
+    "artist": "Fever Dream w/ Nibiru, 8Bit Crush, Kidd Ruin, The Monochrome Suns",
+    "date": "2026-11-28",
+    "venue": "1810 Ojeman"
+   },
+   {
+    "artist": "The Black Rose Winter Gathering",
+    "date": "2026-12-05",
     "venue": "1810 Ojeman"
    }
   ]
  },
  "713 Music Hall": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Jessie Reyez: A Little Vengeance Tour",
-    "date": "2026-11-12",
-    "venue": "713 Music Hall"
-   },
-   {
-    "artist": "El Tri",
-    "date": "2026-11-15",
-    "venue": "713 Music Hall"
-   },
-   {
-    "artist": "RAWAYANA - \u00bfD\u00f3nde es el after? World Tour",
-    "date": "2026-11-18",
-    "venue": "713 Music Hall"
-   },
-   {
-    "artist": "RAWAYANA - \u00bfD\u00f3nde es el after? World Tour",
-    "date": "2026-11-19",
-    "venue": "713 Music Hall"
-   },
-   {
-    "artist": "Pedro Fern\u00e1ndez - Ave F\u00e9nix Two'r",
-    "date": "2026-11-20",
-    "venue": "713 Music Hall"
-   },
    {
     "artist": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
     "date": "2026-11-28",
@@ -88,6 +68,11 @@
     "venue": "713 Music Hall"
    },
    {
+    "artist": "La Mafia",
+    "date": "2027-02-19",
+    "venue": "713 Music Hall"
+   },
+   {
     "artist": "PABLO ALBORAN - GLOBAL TOUR KM0",
     "date": "2027-02-20",
     "venue": "713 Music Hall"
@@ -110,6 +95,16 @@
    {
     "artist": "Death Cab for Cutie - I Built You A Tower Tour",
     "date": "2027-03-22",
+    "venue": "713 Music Hall"
+   },
+   {
+    "artist": "Stephen Wilson Jr. - Gary The Torch Tour",
+    "date": "2027-03-27",
+    "venue": "713 Music Hall"
+   },
+   {
+    "artist": "BigXthaPlug - Better Over Time Tour",
+    "date": "2027-03-30",
     "venue": "713 Music Hall"
    },
    {
@@ -140,6 +135,11 @@
    {
     "artist": "Carly Rae Jepsen: Day and Night Tour",
     "date": "2027-05-08",
+    "venue": "713 Music Hall"
+   },
+   {
+    "artist": "Ha*Ash - No Me Hablen de Amor",
+    "date": "2027-05-16",
     "venue": "713 Music Hall"
    }
   ]
@@ -217,6 +217,11 @@
  "Bad Astronaut Brewing": {
   "as_of": "2026-11-22",
   "shows": [
+   {
+    "artist": "Mom and Pop Card Show",
+    "date": "2026-11-22",
+    "venue": "Bad Astronaut Brewing"
+   },
    {
     "artist": "Jejune with The Ritornello Form",
     "date": "2026-11-22",
@@ -335,7 +340,7 @@
   ]
  },
  "Bayou Music Center": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
    {
     "artist": "Trivium",
@@ -421,32 +426,17 @@
     "artist": "Chris Mitchell Jazz - Begging For Sax II",
     "date": "2027-05-08",
     "venue": "Bayou Music Center"
+   },
+   {
+    "artist": "Dylan Gossett - The Ramblin' Tour 2027",
+    "date": "2027-05-14",
+    "venue": "Bayou Music Center"
    }
   ]
  },
  "DUCTWORK": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "D.O.D (18+)",
-    "date": "2026-11-13",
-    "venue": "DUCTWORK"
-   },
-   {
-    "artist": "Steve Aoki with JOYRYDE (18 and Over)",
-    "date": "2026-11-14",
-    "venue": "DUCTWORK"
-   },
-   {
-    "artist": "Afrojack (18 and Over)",
-    "date": "2026-11-20",
-    "venue": "DUCTWORK"
-   },
-   {
-    "artist": "Crankdat (18 and Over)",
-    "date": "2026-11-21",
-    "venue": "DUCTWORK"
-   },
    {
     "artist": "Crankdat - Ages",
     "date": "2026-11-22",
@@ -520,6 +510,11 @@
    {
     "artist": "Zingara (18+ Event)",
     "date": "2027-03-26",
+    "venue": "DUCTWORK"
+   },
+   {
+    "artist": "LSDREAM",
+    "date": "2027-04-08",
     "venue": "DUCTWORK"
    }
   ]
@@ -1100,88 +1095,8 @@
   ]
  },
  "House of Blues Houston": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "bleood - Kill Your Idols Tour",
-    "date": "2026-11-10",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "100.3 The Bull presents Ten Man Jam",
-    "date": "2026-11-11",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Matt Maeson: Watch My Step Tour",
-    "date": "2026-11-12",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Tiny Habits",
-    "date": "2026-11-12",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "SE EST\u00c1 HACIENDO TARDE",
-    "date": "2026-11-13",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Buena Vista Orchestra",
-    "date": "2026-11-14",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Father Of Peace - The Year Of Madness & The Mystery Century Tour",
-    "date": "2026-11-14",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "The Music of Hey Arnold! Live! Feat. Jim Lang and The PS 118 AllStars",
-    "date": "2026-11-16",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Toosii Platinum Nights",
-    "date": "2026-11-17",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "DragonForce: Inhuman Rampage 20th Anniversary",
-    "date": "2026-11-18",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Daisy Grenade",
-    "date": "2026-11-18",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Syd: Beard Tour",
-    "date": "2026-11-19",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Syd - Early Entry VIP Upgrade",
-    "date": "2026-11-19",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Legends of the Fall: Closer to the Edge Tour",
-    "date": "2026-11-20",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "The Fab Four: A Hard Day's Night",
-    "date": "2026-11-21",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Bryan Andrews",
-    "date": "2026-11-21",
-    "venue": "House of Blues"
-   },
    {
     "artist": "LAYA - Lipstick N Leather",
     "date": "2026-11-22",
@@ -1190,11 +1105,6 @@
    {
     "artist": "Band Of Horses",
     "date": "2026-11-23",
-    "venue": "House of Blues"
-   },
-   {
-    "artist": "Lil Tracy",
-    "date": "2026-11-24",
     "venue": "House of Blues"
    },
    {
@@ -1263,6 +1173,11 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "ksuuvi",
+    "date": "2026-12-18",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "Will Downing",
     "date": "2026-12-18",
     "venue": "House of Blues"
@@ -1318,7 +1233,17 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "Glee Night",
+    "date": "2027-01-22",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "Corey Kent's Heartland Rock and Roll TouR",
+    "date": "2027-01-23",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "cortex",
     "date": "2027-01-23",
     "venue": "House of Blues"
    },
@@ -1368,8 +1293,23 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "Montana 700 - The Reminiscing Tour",
+    "date": "2027-02-09",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "LACI KAYE BOOTH - Love Letter 2 Texas TouR",
     "date": "2027-02-11",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Amira Elfeky: It Was Only A Dream Tour",
+    "date": "2027-02-12",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Tezzus - M\u00d8MMA B\u00d8YZ LIVE",
+    "date": "2027-02-14",
     "venue": "House of Blues"
    },
    {
@@ -1398,8 +1338,23 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "Gabriel Jacoby - gutta child tour",
+    "date": "2027-02-24",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Ciar\u00e1n",
+    "date": "2027-02-25",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "FLOW WORLD TOUR 2027 \"ONCE IN A CENTURY\" ~ANIME THE MAX!!!~",
     "date": "2027-02-26",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "76th Street",
+    "date": "2027-03-05",
     "venue": "House of Blues"
    },
    {
@@ -1443,6 +1398,11 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "date": "2027-03-25",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "Gus Dapperton: 4 Dear Life Tour",
     "date": "2027-03-26",
     "venue": "House of Blues"
@@ -1454,6 +1414,11 @@
    },
    {
     "artist": "Boy Throb's Real Tour",
+    "date": "2027-03-28",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Himra",
     "date": "2027-03-28",
     "venue": "House of Blues"
    },
@@ -1478,6 +1443,11 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "Sasha Keable - Act Right Tour",
+    "date": "2027-04-19",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "Trampled By Turtles",
     "date": "2027-04-23",
     "venue": "House of Blues"
@@ -1488,25 +1458,40 @@
     "venue": "House of Blues"
    },
    {
+    "artist": "Haute & Freddy - Bigger Disgrace Tour",
+    "date": "2027-04-27",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Goldie Boutilier - The Godmother Tour",
+    "date": "2027-04-30",
+    "venue": "House of Blues"
+   },
+   {
     "artist": "Guaco",
     "date": "2027-05-06",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Valery Meladze",
+    "date": "2027-05-13",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "Yendry",
+    "date": "2027-05-15",
+    "venue": "House of Blues"
+   },
+   {
+    "artist": "AVATAR: Across The Underworld",
+    "date": "2027-05-20",
     "venue": "House of Blues"
    }
   ]
  },
  "Houston Arena Theatre": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "BEATRIZ ADRIANA - LA BASURITA TOUR",
-    "date": "2026-11-20",
-    "venue": "Houston Arena Theatre"
-   },
-   {
-    "artist": "Gerardo Coronel y Pancho Uresti",
-    "date": "2026-11-21",
-    "venue": "Houston Arena Theatre"
-   },
    {
     "artist": "Young Stunners",
     "date": "2026-11-22",
@@ -2235,23 +2220,8 @@
   ]
  },
  "Scout Bar": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "OZZ - A Tribute to Ozzy Osbourne w/ Victims Of A System",
-    "date": "2026-11-14",
-    "venue": "Scout Bar"
-   },
-   {
-    "artist": "Texas Hippie Coalition (Under 18 with parent)",
-    "date": "2026-11-15",
-    "venue": "Scout Bar"
-   },
-   {
-    "artist": "The Spazmatics",
-    "date": "2026-11-20",
-    "venue": "Scout Bar"
-   },
    {
     "artist": "Waterparks",
     "date": "2026-11-28",
@@ -2270,8 +2240,13 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-18",
   "shows": [
+   {
+    "artist": "Intocable",
+    "date": "2026-11-21",
+    "venue": "Smart Financial Centre"
+   },
    {
     "artist": "Yuri & Lucero",
     "date": "2026-11-27",
@@ -2331,11 +2306,6 @@
     "artist": "Star Wars: A New Hope in Concert",
     "date": "2027-01-22",
     "venue": "Smart Financial Centre"
-   },
-   {
-    "artist": "Gipsy Kings Featuring Nicolas Reyes",
-    "date": "2027-02-09",
-    "venue": "Smart Financial Centre"
    }
   ]
  },
@@ -2350,11 +2320,6 @@
    {
     "artist": "Darci Lynne and Friends: 2026 Christmas Tour",
     "date": "2026-12-03",
-    "venue": "Stafford Centre"
-   },
-   {
-    "artist": "Fort Bend Symphony Orchestra and Chorus - Deck the Halls",
-    "date": "2026-12-06",
     "venue": "Stafford Centre"
    }
   ]
@@ -2385,28 +2350,8 @@
   ]
  },
  "The Bronze Peacock": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Tiny Habits",
-    "date": "2026-11-12",
-    "venue": "The Bronze Peacock"
-   },
-   {
-    "artist": "Father Of Peace - The Year Of Madness & The Mystery Century Tour",
-    "date": "2026-11-14",
-    "venue": "The Bronze Peacock"
-   },
-   {
-    "artist": "Daisy Grenade",
-    "date": "2026-11-18",
-    "venue": "The Bronze Peacock"
-   },
-   {
-    "artist": "Bryan Andrews",
-    "date": "2026-11-21",
-    "venue": "The Bronze Peacock"
-   },
    {
     "artist": "LAYA - Lipstick N Leather",
     "date": "2026-11-22",
@@ -2423,8 +2368,18 @@
     "venue": "The Bronze Peacock"
    },
    {
+    "artist": "ksuuvi",
+    "date": "2026-12-18",
+    "venue": "The Bronze Peacock"
+   },
+   {
     "artist": "Fox N' Vead featuring Logan Jahnke",
     "date": "2027-01-22",
+    "venue": "The Bronze Peacock"
+   },
+   {
+    "artist": "cortex",
+    "date": "2027-01-23",
     "venue": "The Bronze Peacock"
    },
    {
@@ -2448,8 +2403,18 @@
     "venue": "The Bronze Peacock"
    },
    {
+    "artist": "Montana 700 - The Reminiscing Tour",
+    "date": "2027-02-09",
+    "venue": "The Bronze Peacock"
+   },
+   {
     "artist": "LACI KAYE BOOTH - Love Letter 2 Texas TouR",
     "date": "2027-02-11",
+    "venue": "The Bronze Peacock"
+   },
+   {
+    "artist": "Amira Elfeky: It Was Only A Dream Tour",
+    "date": "2027-02-12",
     "venue": "The Bronze Peacock"
    },
    {
@@ -2468,6 +2433,21 @@
     "venue": "The Bronze Peacock"
    },
    {
+    "artist": "Gabriel Jacoby - gutta child tour",
+    "date": "2027-02-24",
+    "venue": "The Bronze Peacock"
+   },
+   {
+    "artist": "Ciar\u00e1n",
+    "date": "2027-02-25",
+    "venue": "The Bronze Peacock"
+   },
+   {
+    "artist": "76th Street",
+    "date": "2027-03-05",
+    "venue": "The Bronze Peacock"
+   },
+   {
     "artist": "Katherine Li: I love you, or whatever Tour",
     "date": "2027-03-13",
     "venue": "The Bronze Peacock"
@@ -2478,108 +2458,88 @@
     "venue": "The Bronze Peacock"
    },
    {
+    "artist": "Himra",
+    "date": "2027-03-28",
+    "venue": "The Bronze Peacock"
+   },
+   {
     "artist": "Haiden Henderson",
     "date": "2027-04-09",
+    "venue": "The Bronze Peacock"
+   },
+   {
+    "artist": "Yendry",
+    "date": "2027-05-15",
     "venue": "The Bronze Peacock"
    }
   ]
  },
  "The Continental Club": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Hippie Death Cult",
-    "date": "2026-11-21",
+    "artist": "Beetle Tuesday",
+    "date": "2026-11-24",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Dale Watson",
+    "artist": "Human Clay - Premiere Touring Creed Tribute Show",
     "date": "2026-11-27",
     "venue": "The Continental Club"
    },
    {
-    "artist": "India Tigers in Texas",
+    "artist": "India Tigers In Texas / Ghost Party",
     "date": "2026-11-28",
     "venue": "The Continental Club"
    },
    {
-    "artist": "The Allen Oldies Band",
-    "date": "2026-11-28",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Christopher Seymore",
-    "date": "2026-12-01",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "midwxst",
-    "date": "2026-12-03",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "FROG HAIR",
+    "artist": "Frog Hair - Spain Colored Orange -Houston Rock n' Roll Party",
     "date": "2026-12-04",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Carson Lewis",
+    "artist": "Disco Expressions' Discowonderland",
     "date": "2026-12-05",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Nick Gaitan",
-    "date": "2026-12-08",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Jaelen Johnston",
+    "artist": "Jaelen Johnston (The Voice) Full Band Show",
     "date": "2026-12-10",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Jeff Crosby",
+    "artist": "Amy Winehouse Tribute with Allisen and the Wy's Guys",
     "date": "2026-12-11",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Honky",
+    "artist": "A very HONKY Holiday",
     "date": "2026-12-12",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Vincent Neil Emerson",
-    "date": "2026-12-15",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Lane Bricker",
-    "date": "2026-12-17",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Rodell Duff",
+    "artist": "Brazilian Night \u2013 Houston",
     "date": "2026-12-18",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Mike Barfield",
+    "artist": "Carolyn Wonderland's Holiday Ramble featuring Rosie Flores and Shelley King",
     "date": "2026-12-19",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Carolyn Wonderland",
-    "date": "2026-12-19",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Blaggards",
+    "artist": "Rock the Shelter XXXVIII - Blaggards, Mighty Orq, and Acoustic Trails bring the rock",
     "date": "2026-12-20",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Frederico7",
+    "artist": "Brasileir\u00f4u",
     "date": "2026-12-20",
+    "venue": "The Continental Club"
+   },
+   {
+    "artist": "Boxing Day Beetle",
+    "date": "2026-12-26",
     "venue": "The Continental Club"
    },
    {
@@ -2588,103 +2548,43 @@
     "venue": "The Continental Club"
    },
    {
+    "artist": "CBGB Night with Blondish and Sedated",
+    "date": "2027-01-09",
+    "venue": "The Continental Club"
+   },
+   {
     "artist": "Dusty Miller and the Spurflowers",
     "date": "2027-01-15",
     "venue": "The Continental Club"
    },
    {
-    "artist": "The Byrne Brothers",
-    "date": "2027-01-17",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Derrick Dove & the Peacekeepers",
+    "artist": "Beetle kicks off 2027",
     "date": "2027-01-21",
     "venue": "The Continental Club"
    },
    {
-    "artist": "The Trips",
+    "artist": "The Trips / Lucid Illusions / D.O.G",
     "date": "2027-01-22",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Tobias Lund",
-    "date": "2027-01-22",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Marina Rocks",
+    "artist": "11th Annual Django Reinhardt & Stephanie Grappelli Birthday Celebration",
     "date": "2027-01-23",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Loose Helmet",
-    "date": "2027-01-29",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Alastair Greene",
-    "date": "2027-01-30",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Nolan Taylor",
-    "date": "2027-02-04",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Crashing Wayward",
-    "date": "2027-02-05",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Tommy Stinson",
+    "artist": "Tommy Stinson & English Teeth",
     "date": "2027-02-12",
     "venue": "The Continental Club"
    },
    {
-    "artist": "Marc Ridge",
-    "date": "2027-02-17",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Reed Turchi",
-    "date": "2027-02-19",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Coey Redd",
-    "date": "2027-02-20",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Cody Landress-Gibson",
-    "date": "2027-03-17",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Anana Kaye",
-    "date": "2027-04-07",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "John Hollier & the R\u00eaverie",
-    "date": "2027-04-08",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Southern Culture on the Skids",
-    "date": "2027-04-14",
+    "artist": "Ulrika Spacek straight from the UK",
+    "date": "2027-03-06",
     "venue": "The Continental Club"
    },
    {
     "artist": "Earth Tongue",
     "date": "2027-04-21",
-    "venue": "The Continental Club"
-   },
-   {
-    "artist": "Tommy Luke",
-    "date": "2027-04-24",
     "venue": "The Continental Club"
    },
    {
@@ -2695,95 +2595,70 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Heat Ray",
+    "artist": "Hometown Hoedown 18",
+    "date": "2026-11-27",
+    "venue": "The End"
+   },
+   {
+    "artist": "COUNT34CULT w/ GHOST DATA, Heat Ray, Virtual Dave",
     "date": "2026-11-28",
     "venue": "The End"
    },
    {
-    "artist": "Friend",
-    "date": "2026-11-29",
-    "venue": "The End"
-   },
-   {
-    "artist": "ORIENA",
+    "artist": "Peacemaker// Oriena",
     "date": "2026-12-03",
     "venue": "The End"
    },
    {
-    "artist": "Echos",
-    "date": "2026-12-07",
+    "artist": "Will To Live w/ By Any Means, The Burden and More",
+    "date": "2026-12-05",
     "venue": "The End"
    },
    {
-    "artist": "Silvertung",
+    "artist": "Alborn, Silvertung and Alibis",
     "date": "2026-12-08",
     "venue": "The End"
    },
    {
-    "artist": "Dead Things",
-    "date": "2026-12-08",
+    "artist": "TRAUMATIZATION// AUGMENT",
+    "date": "2026-12-10",
     "venue": "The End"
    },
    {
-    "artist": "Brotality",
-    "date": "2026-12-09",
+    "artist": "Dusty",
+    "date": "2026-12-11",
     "venue": "The End"
    },
    {
-    "artist": "Dot Dot Curve",
-    "date": "2026-12-15",
-    "venue": "The End"
-   },
-   {
-    "artist": "Taken By Tides",
-    "date": "2026-12-17",
-    "venue": "The End"
-   },
-   {
-    "artist": "Deep 6 - Houston",
-    "date": "2026-12-18",
-    "venue": "The End"
-   },
-   {
-    "artist": "Sap",
-    "date": "2026-12-19",
-    "venue": "The End"
-   },
-   {
-    "artist": "Moondough",
-    "date": "2026-12-21",
-    "venue": "The End"
-   },
-   {
-    "artist": "Donovan Melero",
-    "date": "2026-12-21",
-    "venue": "The End"
-   },
-   {
-    "artist": "Big D and the Kids Table",
+    "artist": "BIG D AND THE KIDS TABLE w/ Omnigone",
     "date": "2027-01-10",
     "venue": "The End"
    },
    {
-    "artist": "Gene Ross",
+    "artist": "Collective dust// corralines collapse",
     "date": "2027-01-13",
     "venue": "The End"
    },
    {
-    "artist": "Davey Allen",
+    "artist": "Cash For Vices w/ Dirty Kid Schmely, Scuba ans Sarah Ybarra",
+    "date": "2027-01-29",
+    "venue": "The End"
+   },
+   {
+    "artist": "Plague beast w/ Kill Lonely",
+    "date": "2027-01-30",
+    "venue": "The End"
+   },
+   {
+    "artist": "Davey Allen w/ Cris Hodges",
     "date": "2027-02-04",
     "venue": "The End"
    },
    {
-    "artist": "Haywire 617",
-    "date": "2027-03-04",
-    "venue": "The End"
-   },
-   {
-    "artist": "Gvllow",
+    "artist": "Haywire w/ Dark Thoughts and Gvllow",
     "date": "2027-03-04",
     "venue": "The End"
    }
@@ -2870,11 +2745,121 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Delaney Ann",
-    "date": "2026-11-21",
+    "artist": "Taylor Marberry",
+    "date": "2026-11-22",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Jeremiah Jaymes",
+    "date": "2026-11-22",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Stacey Steele",
+    "date": "2026-11-25",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Nick Gaitan",
+    "date": "2026-11-25",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "The Magnolia Brothers",
+    "date": "2026-11-25",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Chad Ware",
+    "date": "2026-11-27",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Ryem The Duo",
+    "date": "2026-11-28",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "JP Lee",
+    "date": "2026-11-28",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Nathan Quick",
+    "date": "2026-11-28",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Alejandro Miramontes",
+    "date": "2026-11-28",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "AJ Santana",
+    "date": "2026-11-29",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Gary Kyle",
+    "date": "2026-11-29",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Louis Adams Diaz",
+    "date": "2026-12-02",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Susan Hickman",
+    "date": "2026-12-03",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "William James",
+    "date": "2026-12-04",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Mark Zeus",
+    "date": "2026-12-04",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Elizabeth Keyes",
+    "date": "2026-12-04",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Luba Dvorak",
+    "date": "2026-12-05",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Travis Lance",
+    "date": "2026-12-05",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Patty O\u2019Beers",
+    "date": "2026-12-05",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Dom Francis",
+    "date": "2026-12-05",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "JB Barnett",
+    "date": "2026-12-06",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Holiday Jams With Trent Minter",
+    "date": "2026-12-09",
     "venue": "The Rustic"
    },
    {
@@ -2883,8 +2868,98 @@
     "venue": "The Rustic"
    },
    {
+    "artist": "Jes Schneider",
+    "date": "2026-12-12",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Joseph Crump",
+    "date": "2026-12-12",
+    "venue": "The Rustic"
+   },
+   {
     "artist": "Susan Hickman",
     "date": "2026-12-12",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Little Outfit",
+    "date": "2026-12-12",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Krista Gene",
+    "date": "2026-12-13",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Brian Sacco",
+    "date": "2026-12-13",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Ryan Winslow",
+    "date": "2026-12-16",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Chad Ware",
+    "date": "2026-12-18",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Jeremy Parsons",
+    "date": "2026-12-19",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Jeremiah Jaymes",
+    "date": "2026-12-19",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Max Burgess",
+    "date": "2026-12-19",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Matt Chauvin",
+    "date": "2026-12-20",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Eric Korb",
+    "date": "2026-12-20",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Alejandro Miramontes",
+    "date": "2026-12-26",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Luke Lafleur",
+    "date": "2026-12-26",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Phillip Craig",
+    "date": "2026-12-26",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Ryan Adam Wells",
+    "date": "2026-12-27",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "AJ Santana",
+    "date": "2026-12-27",
+    "venue": "The Rustic"
+   },
+   {
+    "artist": "Randy Lee Holland",
+    "date": "2026-12-30",
     "venue": "The Rustic"
    }
   ]
@@ -2975,13 +3050,8 @@
   ]
  },
  "Toyota Center": {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Journey",
-    "date": "2026-11-18",
-    "venue": "Toyota Center"
-   },
    {
     "artist": "Disney Worlds Collide Concert Tour w/ Disney Descendant's: Zombies",
     "date": "2026-12-02",
@@ -3038,6 +3108,11 @@
     "venue": "Toyota Center"
    },
    {
+    "artist": "New Order",
+    "date": "2027-03-10",
+    "venue": "Toyota Center"
+   },
+   {
     "artist": "The Love of Soul Tour",
     "date": "2027-03-12",
     "venue": "Toyota Center"
@@ -3058,6 +3133,11 @@
     "venue": "Toyota Center"
    },
    {
+    "artist": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "date": "2027-03-25",
+    "venue": "Toyota Center"
+   },
+   {
     "artist": "Calvin Harris - North America Tour",
     "date": "2027-04-23",
     "venue": "Toyota Center"
@@ -3065,6 +3145,16 @@
    {
     "artist": "Calvin Harris - North America Tour",
     "date": "2027-04-23",
+    "venue": "Toyota Center"
+   },
+   {
+    "artist": "Ark to Agartha - A Westside Whimsy Experience",
+    "date": "2027-04-24",
+    "venue": "Toyota Center"
+   },
+   {
+    "artist": "Ark to Agartha - A Westside Whimsy Experience",
+    "date": "2027-04-24",
     "venue": "Toyota Center"
    },
    {
@@ -3085,6 +3175,11 @@
    {
     "artist": "Niall Horan: Dinner Party Live On Tour",
     "date": "2027-05-01",
+    "venue": "Toyota Center"
+   },
+   {
+    "artist": "Marc Anthony",
+    "date": "2027-05-02",
     "venue": "Toyota Center"
    }
   ]
@@ -3093,38 +3188,23 @@
   "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Mor ve \u00d6tesi",
-    "date": "2026-11-22",
-    "venue": "Warehouse Live Midtown"
-   },
-   {
-    "artist": "Fetty P Franklin",
+    "artist": "FETTY P FRANKLIN",
     "date": "2026-11-25",
     "venue": "Warehouse Live Midtown"
    },
    {
-    "artist": "Born of Osiris, Miss May I",
-    "date": "2026-11-27",
-    "venue": "Warehouse Live Midtown"
-   },
-   {
-    "artist": "Inquisitive",
-    "date": "2026-11-28",
-    "venue": "Warehouse Live Midtown"
-   },
-   {
-    "artist": "Brother Cane",
-    "date": "2026-12-02",
-    "venue": "Warehouse Live Midtown"
-   },
-   {
-    "artist": "SVDDEN DEATH",
+    "artist": "Svdden Death - Ages",
     "date": "2026-12-04",
     "venue": "Warehouse Live Midtown"
    },
    {
     "artist": "Trapt",
     "date": "2026-12-06",
+    "venue": "Warehouse Live Midtown"
+   },
+   {
+    "artist": "Pepper",
+    "date": "2027-03-12",
     "venue": "Warehouse Live Midtown"
    }
   ]

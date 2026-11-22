@@ -19,8 +19,22 @@
 #   dice         a DICE venue page (title + day-first date lines)
 #   warehouselive Warehouse Live's calendar list view (date line + title line)
 #   atg          an ATG Tickets listing (title / category / venue / date; Concert only)
+#   do713        a Do713 venue page (event cards, 10 per page, paginated)
+#   rustic       a Rustic location's music-events page (date / time / act triples)
+#   rockinghtown Rocking H-Town's monthly calendar table (day rows of
+#                "Artist(s) - Venue" entries; keep only table_venues)
 #   none         no usable machine-readable calendar (yet) — builder skips
 #                it and says so in the build report
+#
+# Optional per-source keys:
+#   filter_music: true   drop non-music titles (comedy, trivia, karaoke...)
+#   drop_re: "big top"  drop titles matching this regex (case-insensitive)
+#                        — for a feed that mixes in a sibling room or a
+#                        non-music party the venue name can't separate
+#   tm_venues: "A; B"    for type ticketmaster: venue names to match in
+#                        the Ticketmaster city feed (semicolon list)
+#   table_venues: "A; B" for type rockinghtown: same idea, against the
+#                        calendar table's venue column
 
 sources:
   - name: McGonigel's Mucky Duck
@@ -57,9 +71,11 @@ sources:
 
   - name: The Continental Club
     venue: The Continental Club
-    type: jsonld
-    url: https://www.bandsintown.com/v/10002640-continental-club
-    note: "Midtown. Calendar is a Time.ly (Timely) embed; the venue's own page renders nothing as text and Time.ly's hosted calendar page renders descriptions without titles or dates as text, mixed with recurring happy-hour, movie and sports promos — not a clean pickup. The pickup is the Bandsintown venue page instead. Big Top Lounge next door is not covered by this block."
+    type: do713
+    url: https://do713.com/venues/the-continental-club
+    filter_music: true
+    drop_re: "big top"
+    note: "Midtown. Own site is a Squarespace page with a Time.ly (Timely) calendar embed that renders no event text, and Bandsintown 403s the builder (Nov 2026) — the pickup is the Do713 venue page, which lists the room's shows as server-rendered cards (paginated, 10 per page). Big Top Lounge next door is not covered by this block: its shows appear on the same page and are dropped by drop_re."
 
   - name: Bad Astronaut Brewing
     venue: Bad Astronaut Brewing
@@ -70,8 +86,8 @@ sources:
   - name: The End
     venue: The End
     type: jsonld
-    url: https://bandsintown.com/v/10274955-the-end
-    note: "East End DIY room. No venue-run calendar; the pickup is the Bandsintown venue page, which carries its shows as embedded event data. Note: other sources say the room moved next door (Ground Control) — Bandsintown still lists shows under The End, so verify the room name before publishing."
+    url: https://theendhtx.com/
+    note: "East End DIY room. Own site (bare domain; www fails to connect) embeds machine-readable event data for its shows. Bandsintown 403s the builder (Nov 2026) and is no longer the pickup. Note: other sources say the room moved next door (Ground Control) — verify the room name before publishing."
 
   - name: Numbers
     venue: Numbers
@@ -119,9 +135,10 @@ sources:
 
   - name: 1810 Ojeman
     venue: 1810 Ojeman
-    type: jsonld
-    url: https://www.bandsintown.com/v/10064089-eighteen-ten-ojeman
-    note: "Spring Branch DIY space. No venue-run calendar; the pickup is the Bandsintown venue page. The page text shows only the next few events, so this is a near-term feed rather than a full six-month one."
+    type: rockinghtown
+    url: https://www.rockinghtownlive.com/cal.html
+    table_venues: "Eighteen Ten Ojeman; 1810 Ojeman"
+    note: "Spring Branch DIY space. Own site is Wix and renders no event text; its Etix venue page sits behind a bot check; Bandsintown 403s the builder (Nov 2026). The pickup is Rocking H-Town's hand-kept monthly calendar table, which lists the room's shows as 'Artist(s) - Venue' entries. The venue books about two weeks out, so this is a near-term feed — expect only a couple of shows at a time."
 
   - name: White Swan Live
     venue: White Swan Live
@@ -181,9 +198,10 @@ sources:
 
   - name: The Rustic (Post Oak)
     venue: The Rustic
-    type: jsonld
-    url: http://bandsintown.com/v/10299826-the-rustic
-    note: "Uptown/Post Oak location only — the downtown location looked closed/unverified in Oct 2026 and is excluded. Own site exposes no readable show list, so the pickup is the Bandsintown venue page (Post Oak address confirmed there). Free/cheap Texas country and Americana patio shows."
+    type: rustic
+    url: https://www.therustic.com/houston-uptown-park/music-events/
+    drop_re: "drinksgiving"
+    note: "Uptown/Post Oak location only (1121 Uptown Park Blvd) — the downtown location is temporarily closed for relocation and is excluded. Own site's music-events page lists the patio shows as date/time/act triples, a rolling near-term feed (about six weeks). Bandsintown 403s the builder (Nov 2026) and is no longer the pickup. Free/cheap Texas country and Americana patio shows, several sets a day. The DrinksGiving party on the same page is not a music act and is dropped by drop_re."
 
   - name: AvantGarden
     venue: AvantGarden
@@ -194,9 +212,10 @@ sources:
 
   - name: Warehouse Live Midtown
     venue: Warehouse Live Midtown
-    type: warehouselive
+    type: ticketmaster
+    tm_venues: "Warehouse Live Midtown"
     url: https://warehouselivemidtown.com/calendar/
-    note: "Midtown (relocated from the old East End spot). Ballroom + Studio rooms. Calendar page on its own site; the builder reads the list view at the top (date line + title line) — a rolling near-term feed, since the month grids below it carry no such date lines. Private events on the page are dropped by the builder."
+    note: "Midtown (relocated from the old East End spot). Ballroom + Studio rooms. Own calendar page 403s the builder (Nov 2026), so listings come from the Ticketmaster feed, matched by venue name. Private events on the page are dropped by the builder."
 
   - name: House of Blues Houston
     venue: House of Blues

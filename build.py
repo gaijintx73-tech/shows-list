@@ -220,7 +220,7 @@ SHOW_SUFFIX_RE = re.compile(
     r"\s*[-–—(]?\s*(early show|late show|matinee)\s*\)?\s*$", re.I)
 NON_MUSIC_RE = re.compile(
     r"comedy|comedian|stand[\s-]?up|improv|open mic|at the mic|trivia|"
-    r"karaoke|bingo|roast battle|storytelling|book club|author talk|"
+    r"karaoke|bingo|roast battle|storytelling|storytime|book club|author talk|"
     r"private event|closed for a private|comic con|convention|\bexpo\b|"
     r"\bcon\b|"
     r"\bvs\.?\b.*\b(rockets|astros|dynamo|texans|dash)\b", re.I)
@@ -603,7 +603,19 @@ def fetch_ticketmaster(src, ctx):
         d = parse_date_flex(e.get("dates", {}).get("start", {}).get("localDate"),
                             ctx["tz"])
         if d:
-            out.append(ev(d, clean_artist(e.get("name", "")), src["venue"]))
+            name = clean_artist(e.get("name", ""))
+            # Ticketmaster sometimes names the event "ARTIST — (VENUE,
+            # CITY)"; the page line appends the venue itself, so drop a
+            # trailing parenthetical that names this venue.
+            pm = re.search(r"\s*[—–-]\s*\(([^)]*)\)\s*$", name)
+            if pm:
+                tail_words = set(re.findall(r"[a-z0-9]+",
+                                            pm.group(1).lower()))
+                venue_words = {w for w in re.findall(r"[a-z0-9]+", vname)
+                               if len(w) >= 4}
+                if tail_words & venue_words:
+                    name = name[:pm.start()].strip()
+            out.append(ev(d, name, src["venue"]))
     return out
 
 def fetch_html_events(src, ctx):
@@ -773,6 +785,186 @@ def fetch_atg(src, ctx):
         prev = line
     return out
 
+def _do713_clean_title(title, venue):
+    """Do713 writes event titles as marketing copy ('X LIVE at the
+    Continental Club!', 'Y STORM the Continental Club for a raucous
+    Friday night!'). Strip the venue mention and the fluff around it so
+    the line reads like an act name."""
+    t = title.strip()
+    core = re.sub(r"^the\s+", "", venue, flags=re.I)
+    core_re = re.escape(core)
+    # Venue phrase mid-title before a co-bill ("at the Continental Club
+    # with Blondish and Sedated") — drop just the venue phrase.
+    t = re.sub(r"\s+(?:live\s+)?at\s+(?:the\s+)?" + core_re +
+               r"(?=\s+(?:with|featuring|feat\.?|w/)\b)", "", t, flags=re.I)
+    # Otherwise cut at the venue name and strip the dangling tail
+    # ("STORM the", "team up to take on the", "comes to the", ...).
+    m = re.search(core_re, t, re.I)
+    if m:
+        t = t[:m.start()]
+        t = re.sub(r"(?:\s+(?:the|at|live|to|up|for|a|an|storm|take|on|"
+                   r"team|presents?|comes?|kicks?|off))+\s*$", "", t, flags=re.I)
+        t = t.rstrip(" -–—:").strip()
+    return t.rstrip("!").strip()
+
+def fetch_do713(src, ctx):
+    """Do713 venue pages are server-rendered Svelte: each event is an
+    <h3> title line followed by a 'Www, Mon DD | h pm' date line, 10
+    cards per page with a rel=next pagination link. Yearless dates are
+    the next occurrence; dates in the next calendar year carry the year.
+    Titles are marketing copy, so the venue mention is stripped (see
+    _do713_clean_title). Follow pagination until there is no next page."""
+    out, seen, visited = [], set(), set()
+    url = src["url"]
+    for _page in range(6):
+        if url in visited:
+            break
+        visited.add(url)
+        html = fetch(url)
+        lines = _text_lines(html)
+        date_re = re.compile(r"^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), "
+                             r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+                             r"\s+(\d{1,2})(?:,\s*(\d{4}))?\s*\|")
+        for i, line in enumerate(lines):
+            m = date_re.match(line)
+            if not m or i == 0:
+                continue
+            title = lines[i - 1]
+            if date_re.match(title) or len(title) < 3:
+                continue
+            if title.lower() in ("events", "venues", "about", "follow",
+                                 "more info", "tickets", "home"):
+                continue
+            if m.group(4):
+                d = parse_date_flex(
+                    f"{m.group(2)} {m.group(3)}, {m.group(4)}", ctx["tz"])
+            else:
+                d = resolve_yearless(
+                    (MONTHS[m.group(2).lower()], int(m.group(3))),
+                    ctx["today"])
+            if not d:
+                continue
+            name = clean_artist(_do713_clean_title(title, src["venue"]))
+            key = (d, name.lower())
+            if name and key not in seen:
+                seen.add(key)
+                out.append(ev(d, name, src["venue"]))
+        nxt = None
+        for tag in re.findall(r"<a\b[^>]*>", html, re.I):
+            if re.search(r'rel="next', tag, re.I):
+                hm = re.search(r'href="([^"]+)"', tag)
+                if hm:
+                    nxt = urllib.parse.urljoin(url, hm.group(1))
+                break
+        if not nxt or nxt in visited:
+            break
+        url = nxt
+    return out
+
+def _title_case(name):
+    """'CAMERON PHAN' -> 'Cameron Phan'; short all-caps words (initials
+    like JB, AJ, JP) stay upper."""
+    return " ".join(w if (w.isupper() and len(w) <= 2) else w.title()
+                    for w in name.split())
+
+def fetch_rustic(src, ctx):
+    """The Rustic's Uptown Park music-events page lists its shows as
+    plain text: a 'Saturday November 21' date line, a '11:30 AM - 1:30
+    PM' time line, then the act name in ALL CAPS. Read those triples —
+    a rolling near-term feed (about six weeks), not the full six months.
+    The same page template serves the chain's other locations, so the
+    reader works for any of them given the right URL."""
+    lines = _text_lines(fetch(src["url"]))
+    date_re = re.compile(r"^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\w*\s+"
+                         r"(January|February|March|April|May|June|July|"
+                         r"August|September|October|November|December)"
+                         r"\s+(\d{1,2})$")
+    time_re = re.compile(r"^\d{1,2}:\d{2}\s*[AP]M"
+                         r"(\s*-\s*\d{1,2}:\d{2}\s*[AP]M)?$")
+    out, seen = [], set()
+    i = 0
+    while i + 2 < len(lines):
+        m = date_re.match(lines[i])
+        if m and time_re.match(lines[i + 1]):
+            d = resolve_yearless(
+                (MONTHS[m.group(2).lower()], int(m.group(3))), ctx["today"])
+            name = clean_artist(_title_case(lines[i + 2]))
+            if d and name:
+                key = (d, name.lower())
+                if key not in seen:
+                    seen.add(key)
+                    out.append(ev(d, name, src["venue"]))
+            i += 3
+            continue
+        i += 1
+    return out
+
+def fetch_rockinghtown(src, ctx):
+    """Rocking H-Town (rockinghtownlive.com/cal.html) is a hand-kept
+    monthly calendar table: a month header row ('November', 'December',
+    'January 2027'), then one row per day ('27th') whose cell lists
+    'Artist(s) - Venue' entries separated by <br>. Keep only the entries
+    whose venue matches table_venues (semicolon list, like tm_venues).
+    Entries wrapped over two lines are joined back together, and a
+    'Headliner : support, support' bill reads as 'Headliner w/ ...'."""
+    html = fetch(src["url"])
+    wanted = [w.strip().lower() for w in
+              str(src.get("table_venues", "")).split(";") if w.strip()]
+    months_re = (r"(January|February|March|April|May|June|July|August|"
+                 r"September|October|November|December)")
+    pat = re.compile(
+        r'<td[^>]*colspan="2"[^>]*>\s*<big[^>]*>\s*<big[^>]*>\s*'
+        + months_re + r'(?:\s+(\d{4}))?'
+        r'|<font[^>]*size="\+2"[^>]*>(\d{1,2})(?:st|nd|rd|th)</font>'
+        r'</b></td>\s*<td[^>]*>(.*?)</td>',
+        re.S | re.I)
+    out, seen = [], set()
+    month = None
+    for m in pat.finditer(html):
+        if m.group(1):
+            month = MONTHS[m.group(1).lower()]
+            continue
+        if month is None or not m.group(3):
+            continue
+        d = resolve_yearless((month, int(m.group(3))), ctx["today"])
+        if not d:
+            continue
+        cell = re.sub(r"<br\s*/?>", "\n", m.group(4), flags=re.I)
+        cell = re.sub(r"<[^>]+>", " ", cell)
+        cell = htmlmod.unescape(cell)
+        raw_lines = [re.sub(r"\s+", " ", l).replace("\xa0", " ").strip()
+                     for l in cell.split("\n")]
+        # Join wrapped entries: a line with no " - " belongs to the entry
+        # whose venue sits on the next line.
+        entries, buf = [], None
+        for ln in raw_lines:
+            if not ln:
+                continue
+            if " - " in ln:
+                if buf:
+                    ln = buf + ", " + ln
+                    buf = None
+                entries.append(ln)
+            else:
+                buf = (buf + ", " + ln) if buf else ln
+        for entry in entries:
+            if " - " not in entry:
+                continue
+            artists, venue = entry.rsplit(" - ", 1)
+            venue = re.sub(r"\s*\([^)]*\)\s*$", "", venue).strip()
+            if wanted and not any(w in venue.lower()
+                                  or venue.lower() in w for w in wanted):
+                continue
+            artists = artists.strip()
+            if " : " in artists:
+                artists = artists.replace(" : ", " w/ ", 1)
+            name = clean_artist(artists)
+            key = (d, name.lower())
+            if name and key not in seen:
+                seen.add(key)
+                out.append(ev(d, name, src["venue"]))
+    return out
+
 STRATEGIES = {
     "none": fetch_none,
     "tribe": fetch_tribe,
@@ -793,16 +985,19 @@ STRATEGIES = {
     "dice": fetch_dice,
     "warehouselive": fetch_warehouselive,
     "atg": fetch_atg,
+    "do713": fetch_do713,
+    "rustic": fetch_rustic,
+    "rockinghtown": fetch_rockinghtown,
 }
 
 # Lower number wins when two sources list the same show — a venue's own
 # calendar beats a ticketing platform, which beats the Ticketmaster feed.
 PRIORITY = {"mcgonigels": 0, "tribe": 0, "squarespace": 0, "jsonld": 0,
             "heights": 0, "squarespace_pages": 0, "shfl": 0,
-            "warehouselive": 0,
+            "warehouselive": 0, "rustic": 0,
             "html": 1, "whiteoak": 1, "thundertix": 1, "prekindle": 2,
             "eventbrite": 2, "ics": 2, "dice": 2,
-            "atg": 2,
+            "atg": 2, "do713": 1, "rockinghtown": 1,
             "ticketmaster": 3, "none": 9}
 
 WEEKDAYS = ["Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat.", "Sun."]
@@ -866,6 +1061,14 @@ def main():
                 if s["date"] < today or s["date"] > end:
                     continue
                 if src.get("filter_music") is True and not is_music(s["artist"]):
+                    continue
+                # Per-source drop pattern (a regex, case-insensitive):
+                # the source's own feed mixes in a sibling room or a
+                # non-music party the venue name alone can't separate
+                # (e.g. Big Top Lounge shows on the Continental Club's
+                # Do713 page, the Rustic's DrinksGiving party).
+                if src.get("drop_re") and re.search(str(src["drop_re"]),
+                                                    s["artist"], re.I):
                     continue
                 kept.append(s)
         used_cache = False
