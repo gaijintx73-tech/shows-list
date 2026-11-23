@@ -1,6 +1,6 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Fever Dream w/ Nibiru, 8Bit Crush, Kidd Ruin, The Monochrome Suns",
@@ -155,7 +155,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Main Stage",
@@ -175,7 +175,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Rock En Espanol with Satri, Falsa Realidad, Super Pop, PoetiX",
@@ -215,18 +215,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Mom and Pop Card Show",
-    "date": "2026-11-22",
-    "venue": "Bad Astronaut Brewing"
-   },
-   {
-    "artist": "Jejune with The Ritornello Form",
-    "date": "2026-11-22",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Friendsgiving with The Vine Living",
     "date": "2026-11-24",
@@ -515,13 +505,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Charlie Danger's Jet Set, North by North (CHI), The Wheel Workers",
-    "date": "2026-11-22",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Raa Live at Dan Electro\u2019s",
     "date": "2026-11-23",
@@ -786,22 +771,12 @@
     "artist": "A FRIEND OF MINE: A CELEBRATION OF THE LIFE AND MUSIC OF JERRY GARCIA",
     "date": "2027-04-17",
     "venue": "Dan Electro's"
-   },
-   {
-    "artist": "Paige Lewis Album Release Show",
-    "date": "2026-11-22",
-    "venue": "Dan Electro's"
    }
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Larry, Steve and Rudy: The Gatlin Brothers",
-    "date": "2026-11-22",
-    "venue": "Dosey Doe"
-   },
    {
     "artist": "JunkBunny",
     "date": "2026-11-27",
@@ -1085,6 +1060,11 @@
    {
     "artist": "Patty Larkin",
     "date": "2027-05-06",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "The Music of Abba - Arrival From Sweden",
+    "date": "2027-05-23",
     "venue": "Dosey Doe"
    }
   ]
@@ -1645,7 +1625,7 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Open Mic",
@@ -2135,7 +2115,7 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Classic Numbers Black Celebration!",
@@ -2200,7 +2180,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Blair Socci - Friday 7:30",
@@ -2235,13 +2215,8 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Intocable",
-    "date": "2026-11-21",
-    "venue": "Smart Financial Centre"
-   },
    {
     "artist": "Yuri & Lucero",
     "date": "2026-11-27",
@@ -2301,11 +2276,16 @@
     "artist": "Star Wars: A New Hope in Concert",
     "date": "2027-01-22",
     "venue": "Smart Financial Centre"
+   },
+   {
+    "artist": "Gipsy Kings Featuring Nicolas Reyes",
+    "date": "2027-02-09",
+    "venue": "Smart Financial Centre"
    }
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Move Dance Family 6th Annual Nutcracker Production",
@@ -2325,18 +2305,8 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Houston Krampus Krampage",
-    "date": "2026-12-05",
-    "venue": "Super Happy Fun Land"
-   },
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
@@ -2345,6 +2315,16 @@
    {
     "artist": "Manifesto",
     "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Houston Krampus Krampage",
+    "date": "2026-12-05",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2475,7 +2455,7 @@
   ]
  },
  "The Continental Club": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Human Clay - Premiere Touring Creed Tribute Show",
@@ -2590,7 +2570,7 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Hometown Hoedown 18",
@@ -2740,18 +2720,8 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Taylor Marberry",
-    "date": "2026-11-22",
-    "venue": "The Rustic"
-   },
-   {
-    "artist": "Jeremiah Jaymes",
-    "date": "2026-11-22",
-    "venue": "The Rustic"
-   },
    {
     "artist": "Stacey Steele",
     "date": "2026-11-25",
@@ -2960,7 +2930,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Leanna Firestone",
@@ -3205,18 +3175,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "shows": [
-   {
-    "artist": "Static Dress \u2013 Injury Episode USA Tour",
-    "date": "2026-11-22",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "Tear Dungeon",
-    "date": "2026-11-22",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Diles Que No Me Maten",
     "date": "2026-11-24",
@@ -3273,12 +3233,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "DJ Meredith Marks: YOU. CAN. DANCE. TOUR Season 7 Watch Party",
+    "artist": "james K",
     "date": "2026-12-09",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "james K",
+    "artist": "DJ Meredith Marks: YOU. CAN. DANCE. TOUR Season 7 Watch Party",
     "date": "2026-12-09",
     "venue": "White Oak Music Hall"
    },
