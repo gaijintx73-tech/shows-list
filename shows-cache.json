@@ -438,11 +438,6 @@
   "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Crankdat - Ages",
-    "date": "2026-11-22",
-    "venue": "DUCTWORK"
-   },
-   {
     "artist": "Deorro (18 and Over)",
     "date": "2026-11-27",
     "venue": "DUCTWORK"
@@ -522,11 +517,6 @@
  "Dan Electro's Guitar Bar": {
   "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Paige Lewis Album Release Show",
-    "date": "2026-11-22",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Charlie Danger's Jet Set, North by North (CHI), The Wheel Workers",
     "date": "2026-11-22",
@@ -795,6 +785,11 @@
    {
     "artist": "A FRIEND OF MINE: A CELEBRATION OF THE LIFE AND MUSIC OF JERRY GARCIA",
     "date": "2027-04-17",
+    "venue": "Dan Electro's"
+   },
+   {
+    "artist": "Paige Lewis Album Release Show",
+    "date": "2026-11-22",
     "venue": "Dan Electro's"
    }
   ]
@@ -2321,6 +2316,11 @@
     "artist": "Darci Lynne and Friends: 2026 Christmas Tour",
     "date": "2026-12-03",
     "venue": "Stafford Centre"
+   },
+   {
+    "artist": "Fort Bend Symphony Orchestra and Chorus - Deck the Halls",
+    "date": "2026-12-06",
+    "venue": "Stafford Centre"
    }
   ]
  },
@@ -2328,8 +2328,8 @@
   "as_of": "2026-11-22",
   "shows": [
    {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2338,13 +2338,13 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Jiggy Zaza",
-    "date": "2027-01-23",
+    "artist": "Manifesto",
+    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2477,11 +2477,6 @@
  "The Continental Club": {
   "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Beetle Tuesday",
-    "date": "2026-11-24",
-    "venue": "The Continental Club"
-   },
    {
     "artist": "Human Clay - Premiere Touring Creed Tribute Show",
     "date": "2026-11-27",

@@ -11,6 +11,14 @@
   h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
   .updated { color: #777; font-size: .9rem; margin: 0 0 2rem;
               font-style: italic; }
+  .search { position: sticky; top: 0; padding: .6rem 0 .2rem;
+             background: #ffffff; }
+  .search input { width: 100%; box-sizing: border-box; font: inherit;
+                   font-size: 1rem; padding: .55rem .75rem;
+                   border: 1px solid #bbb; border-radius: .4rem;
+                   background: #ffffff; color: #1a1a1a; }
+  .search input:focus { outline: 2px solid #555555; outline-offset: 1px; }
+  #match-count { color: #777; font-size: .9rem; margin: .35rem 0 0; }
   h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: .12em;
         color: #555555; border-bottom: 1px solid #ddd; padding-bottom: .3rem;
         margin: 2.2rem 0 1rem; }
@@ -19,6 +27,9 @@
             border-top: 1px solid #eee; padding-top: 1rem; }
   @media (prefers-color-scheme: dark) {
     body { background: #141414; color: #e8e8e8; }
+    .search { background: #141414; }
+    .search input { border-color: #555; background: #141414;
+                     color: #e8e8e8; }
     h2 { color: #aaa; border-color: #333; }
     footer { border-color: #262626; }
   }
@@ -27,11 +38,15 @@
 <body>
 <main>
 <h1>Houston Shows List</h1>
-<p class="updated">Updated Sunday, November 22, 2026 &middot; 639 shows, November 22, 2026 &ndash; May 22, 2027</p>
+<p class="updated">Updated Sunday, November 22, 2026 &middot; 638 shows, November 22, 2026 &ndash; May 22, 2027</p>
+<div class="search">
+<input type="search" id="q" placeholder="Search artists or venues&hellip;" aria-label="Search shows" autocomplete="off">
+<p id="match-count" aria-live="polite"></p>
+</div>
+<p id="no-results" hidden>No shows match that search.</p>
 
 <h2>November 2026</h2>
 <p class="show">Sun., November 22 - Charlie Danger&#x27;s Jet Set, North by North (CHI), The Wheel Workers @ Dan Electro&#x27;s</p>
-<p class="show">Sun., November 22 - Crankdat - Ages @ DUCTWORK</p>
 <p class="show">Sun., November 22 - Jejune with The Ritornello Form @ Bad Astronaut Brewing</p>
 <p class="show">Sun., November 22 - Jeremiah Jaymes @ The Rustic</p>
 <p class="show">Sun., November 22 - Larry, Steve and Rudy: The Gatlin Brothers @ Dosey Doe</p>
@@ -47,7 +62,6 @@
 <p class="show">Mon., November 23 - Karaoke Mondays @ Dan Electro&#x27;s</p>
 <p class="show">Mon., November 23 - Open Mic @ McGonigel&#x27;s Mucky Duck</p>
 <p class="show">Mon., November 23 - Raa Live at Dan Electro’s @ Dan Electro&#x27;s</p>
-<p class="show">Tue., November 24 - Beetle Tuesday @ The Continental Club</p>
 <p class="show">Tue., November 24 - Diles Que No Me Maten @ White Oak Music Hall</p>
 <p class="show">Tue., November 24 - Friendsgiving with The Vine Living @ Bad Astronaut Brewing</p>
 <p class="show">Tue., November 24 - King of Drag: The Royal Tour @ White Oak Music Hall</p>
@@ -179,6 +193,7 @@
 <p class="show">Sun., December 6 - Bella White @ White Oak Music Hall</p>
 <p class="show">Sun., December 6 - Boney James @ House of Blues</p>
 <p class="show">Sun., December 6 - Femme &amp; Fury Sunday @ Dan Electro&#x27;s</p>
+<p class="show">Sun., December 6 - Fort Bend Symphony Orchestra and Chorus - Deck the Halls @ Stafford Centre</p>
 <p class="show">Sun., December 6 - JB Barnett @ The Rustic</p>
 <p class="show">Sun., December 6 - Kendall Street Company: Yodeling Astroman Tour @ Dan Electro&#x27;s</p>
 <p class="show">Sun., December 6 - Pi’erre Bourne: Made In Paris @ White Oak Music Hall</p>
@@ -675,10 +690,41 @@
 <p class="show">Sun., May 16 - Ha*Ash - No Me Hablen de Amor @ 713 Music Hall</p>
 <p class="show">Thu., May 20 - AVATAR: Across The Underworld @ House of Blues</p>
 <p class="show">Sat., May 22 - Dillom @ White Oak Music Hall</p>
-<p>Note: listings for Smart Financial Centre (from 2026-11-18), Super Happy Fun Land (from 2026-11-22) are from the last day those calendars loaded — the calendars were temporarily unavailable.</p>
+<p>Note: listings for Smart Financial Centre (from 2026-11-18) are from the last day those calendars loaded — the calendars were temporarily unavailable.</p>
 <footer>Listings are pulled automatically from the venue
-calendars in sources.yaml and shown as published there. 639 shows
+calendars in sources.yaml and shown as published there. 638 shows
 from 50 sources checked.</footer>
 </main>
+<script>
+(function () {
+  var q = document.getElementById('q');
+  var shows = Array.prototype.slice.call(document.querySelectorAll('p.show'));
+  var heads = Array.prototype.slice.call(document.querySelectorAll('h2'));
+  var count = document.getElementById('match-count');
+  var noResults = document.getElementById('no-results');
+  var total = shows.length;
+  function filter() {
+    var needle = q.value.trim().toLowerCase();
+    var visible = 0;
+    shows.forEach(function (p) {
+      var hit = !needle || p.textContent.toLowerCase().indexOf(needle) !== -1;
+      p.style.display = hit ? '' : 'none';
+      if (hit) visible++;
+    });
+    heads.forEach(function (h) {
+      var n = h.nextElementSibling, any = false;
+      while (n && n.tagName !== 'H2') {
+        if (n.classList && n.classList.contains('show')
+            && n.style.display !== 'none') { any = true; break; }
+        n = n.nextElementSibling;
+      }
+      h.style.display = any ? '' : 'none';
+    });
+    count.textContent = needle ? visible + ' of ' + total + ' shows' : '';
+    noResults.hidden = !(needle && visible === 0);
+  }
+  q.addEventListener('input', filter);
+})();
+</script>
 </body>
 </html>

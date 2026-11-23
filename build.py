@@ -1137,6 +1137,14 @@ def main():
   h1 {{ font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }}
   .updated {{ color: #777; font-size: .9rem; margin: 0 0 2rem;
               font-style: italic; }}
+  .search {{ position: sticky; top: 0; padding: .6rem 0 .2rem;
+             background: {bg}; }}
+  .search input {{ width: 100%; box-sizing: border-box; font: inherit;
+                   font-size: 1rem; padding: .55rem .75rem;
+                   border: 1px solid #bbb; border-radius: .4rem;
+                   background: {bg}; color: {fg}; }}
+  .search input:focus {{ outline: 2px solid {accent}; outline-offset: 1px; }}
+  #match-count {{ color: #777; font-size: .9rem; margin: .35rem 0 0; }}
   h2 {{ font-size: 1.05rem; text-transform: uppercase; letter-spacing: .12em;
         color: {accent}; border-bottom: 1px solid #ddd; padding-bottom: .3rem;
         margin: 2.2rem 0 1rem; }}
@@ -1145,6 +1153,9 @@ def main():
             border-top: 1px solid #eee; padding-top: 1rem; }}
   @media (prefers-color-scheme: dark) {{
     body {{ background: {dark_bg}; color: {dark_fg}; }}
+    .search {{ background: {dark_bg}; }}
+    .search input {{ border-color: #555; background: {dark_bg};
+                     color: {dark_fg}; }}
     h2 {{ color: #aaa; border-color: #333; }}
     footer {{ border-color: #262626; }}
   }}
@@ -1154,6 +1165,11 @@ def main():
 <main>
 <h1>{title}</h1>
 <p class="updated">Updated {updated} &middot; {count} shows, {start} &ndash; {end}</p>
+<div class="search">
+<input type="search" id="q" placeholder="Search artists or venues&hellip;" aria-label="Search shows" autocomplete="off">
+<p id="match-count" aria-live="polite"></p>
+</div>
+<p id="no-results" hidden>No shows match that search.</p>
 """.format(title=htmlmod.escape(str(title)), updated=updated,
            count=len(shows), start=today.strftime("%B %d, %Y"),
            end=end.strftime("%B %d, %Y"), font=font, bg=bg, fg=fg,
@@ -1176,7 +1192,40 @@ def main():
     parts.append(f"""<footer>Listings are pulled automatically from the venue
 calendars in sources.yaml and shown as published there. {len(shows)} shows
 from {len(sources)} sources checked.</footer>
-</main>
+</main>""")
+    # The search filter is a plain string, not an f-string: its braces
+    # would otherwise be read as f-string expressions.
+    parts.append("""<script>
+(function () {
+  var q = document.getElementById('q');
+  var shows = Array.prototype.slice.call(document.querySelectorAll('p.show'));
+  var heads = Array.prototype.slice.call(document.querySelectorAll('h2'));
+  var count = document.getElementById('match-count');
+  var noResults = document.getElementById('no-results');
+  var total = shows.length;
+  function filter() {
+    var needle = q.value.trim().toLowerCase();
+    var visible = 0;
+    shows.forEach(function (p) {
+      var hit = !needle || p.textContent.toLowerCase().indexOf(needle) !== -1;
+      p.style.display = hit ? '' : 'none';
+      if (hit) visible++;
+    });
+    heads.forEach(function (h) {
+      var n = h.nextElementSibling, any = false;
+      while (n && n.tagName !== 'H2') {
+        if (n.classList && n.classList.contains('show')
+            && n.style.display !== 'none') { any = true; break; }
+        n = n.nextElementSibling;
+      }
+      h.style.display = any ? '' : 'none';
+    });
+    count.textContent = needle ? visible + ' of ' + total + ' shows' : '';
+    noResults.hidden = !(needle && visible === 0);
+  }
+  q.addEventListener('input', filter);
+})();
+</script>
 </body>
 </html>""")
 
