@@ -15,7 +15,7 @@
   ]
  },
  "713 Music Hall": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
@@ -330,7 +330,7 @@
   ]
  },
  "Bayou Music Center": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Trivium",
@@ -425,7 +425,7 @@
   ]
  },
  "DUCTWORK": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Deorro (18 and Over)",
@@ -1065,13 +1065,8 @@
   ]
  },
  "House of Blues Houston": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
-   {
-    "artist": "Band Of Horses",
-    "date": "2026-11-23",
-    "venue": "House of Blues"
-   },
    {
     "artist": "Project Pat",
     "date": "2026-11-27",
@@ -1455,7 +1450,7 @@
   ]
  },
  "Houston Arena Theatre": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "BXS",
@@ -2185,7 +2180,7 @@
   ]
  },
  "Scout Bar": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Waterparks",
@@ -2205,7 +2200,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Yuri & Lucero",
@@ -2295,13 +2290,8 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-22",
   "shows": [
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
-    "venue": "Super Happy Fun Land"
-   },
    {
     "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
     "date": "2026-11-28",
@@ -2316,11 +2306,16 @@
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
    }
   ]
  },
  "The Bronze Peacock": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Noodah05",
@@ -3005,7 +3000,7 @@
   ]
  },
  "Toyota Center": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Disney Worlds Collide Concert Tour w/ Disney Descendant's: Zombies",
@@ -3140,7 +3135,7 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "FETTY P FRANKLIN",
