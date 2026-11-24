@@ -1,6 +1,6 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Fever Dream w/ Nibiru, 8Bit Crush, Kidd Ruin, The Monochrome Suns",
@@ -155,7 +155,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Main Stage",
@@ -175,7 +175,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Rock En Espanol with Satri, Falsa Realidad, Super Pop, PoetiX",
@@ -215,7 +215,7 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Friendsgiving with The Vine Living",
@@ -505,18 +505,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
-   {
-    "artist": "Raa Live at Dan Electro\u2019s",
-    "date": "2026-11-23",
-    "venue": "Dan Electro's"
-   },
-   {
-    "artist": "Karaoke Mondays",
-    "date": "2026-11-23",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Shawn Allen's Music Mixer & Jam",
     "date": "2026-11-24",
@@ -753,6 +743,11 @@
     "venue": "Dan Electro's"
    },
    {
+    "artist": "HeartByrne",
+    "date": "2027-01-30",
+    "venue": "Dan Electro's"
+   },
+   {
     "artist": "Thursday Nights with Nether Hour 2/11",
     "date": "2027-02-11",
     "venue": "Dan Electro's"
@@ -775,7 +770,7 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "JunkBunny",
@@ -1615,13 +1610,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
-   {
-    "artist": "Open Mic",
-    "date": "2026-11-23",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Paul English Quartet",
     "date": "2026-11-24",
@@ -2073,6 +2063,11 @@
     "venue": "McGonigel's Mucky Duck"
    },
    {
+    "artist": "Parker Millsap",
+    "date": "2027-03-23",
+    "venue": "McGonigel's Mucky Duck"
+   },
+   {
     "artist": "Denitia",
     "date": "2027-03-26",
     "venue": "McGonigel's Mucky Duck"
@@ -2105,7 +2100,7 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Classic Numbers Black Celebration!",
@@ -2170,7 +2165,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Blair Socci - Friday 7:30",
@@ -2180,6 +2175,11 @@
    {
     "artist": "Blair Socci - Friday 9:30",
     "date": "2026-12-04",
+    "venue": "Rudyard's"
+   },
+   {
+    "artist": "Blair Socci - Saturday 7:30",
+    "date": "2026-12-05",
     "venue": "Rudyard's"
    }
   ]
@@ -2205,7 +2205,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Yuri & Lucero",
@@ -2275,7 +2275,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Move Dance Family 6th Annual Nutcracker Production",
@@ -2295,8 +2295,13 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-24",
   "shows": [
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
+    "venue": "Super Happy Fun Land"
+   },
    {
     "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
     "date": "2026-11-28",
@@ -2310,11 +2315,6 @@
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2440,7 +2440,7 @@
   ]
  },
  "The Continental Club": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Human Clay - Premiere Touring Creed Tribute Show",
@@ -2555,7 +2555,7 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Hometown Hoedown 18",
@@ -2600,6 +2600,11 @@
    {
     "artist": "Collective dust// corralines collapse",
     "date": "2027-01-13",
+    "venue": "The End"
+   },
+   {
+    "artist": "Filth \u2013 Resistor \u2013 Slam Band \u2013 Throat Locus",
+    "date": "2027-01-16",
     "venue": "The End"
    },
    {
@@ -2705,7 +2710,7 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Stacey Steele",
@@ -2915,7 +2920,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Leanna Firestone",
@@ -3160,7 +3165,7 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "shows": [
    {
     "artist": "Diles Que No Me Maten",
