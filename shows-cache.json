@@ -1,6 +1,6 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Fever Dream w/ Nibiru, 8Bit Crush, Kidd Ruin, The Monochrome Suns",
@@ -155,7 +155,7 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Main Stage",
@@ -175,7 +175,7 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Rock En Espanol with Satri, Falsa Realidad, Super Pop, PoetiX",
@@ -215,13 +215,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
-   {
-    "artist": "Friendsgiving with The Vine Living",
-    "date": "2026-11-24",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Punk Rock Garage Sale",
     "date": "2026-11-27",
@@ -505,13 +500,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
-   {
-    "artist": "Shawn Allen's Music Mixer & Jam",
-    "date": "2026-11-24",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Chokehold's Grateful Thanksgiving with special guests Lucky Monkeys",
     "date": "2026-11-25",
@@ -668,6 +658,11 @@
     "venue": "Dan Electro's"
    },
    {
+    "artist": "DEADEYE (AUSTIN\u2019S GRATEFUL DEAD TRIBUTE)",
+    "date": "2026-12-19",
+    "venue": "Dan Electro's"
+   },
+   {
     "artist": "Nightbird - A Fleetwood Mac Tribute",
     "date": "2026-12-20",
     "venue": "Dan Electro's"
@@ -770,7 +765,7 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "JunkBunny",
@@ -840,11 +835,6 @@
    {
     "artist": "Already Gone \u2013 Eagles Tribute Band",
     "date": "2026-12-19",
-    "venue": "Dosey Doe"
-   },
-   {
-    "artist": "Mercury Houston",
-    "date": "2026-12-20",
     "venue": "Dosey Doe"
    },
    {
@@ -990,11 +980,6 @@
    {
     "artist": "1964 The Tribute",
     "date": "2027-03-13",
-    "venue": "Dosey Doe"
-   },
-   {
-    "artist": "Mercury Houston",
-    "date": "2027-03-14",
     "venue": "Dosey Doe"
    },
    {
@@ -1605,13 +1590,8 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
-   {
-    "artist": "Paul English Quartet",
-    "date": "2026-11-24",
-    "venue": "McGonigel's Mucky Duck"
-   },
    {
     "artist": "Irish Session",
     "date": "2026-11-25",
@@ -2160,7 +2140,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Blair Socci - Friday 7:30",
@@ -2200,7 +2180,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Yuri & Lucero",
@@ -2270,7 +2250,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Move Dance Family 6th Annual Nutcracker Production",
@@ -2290,11 +2270,16 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
     "date": "2026-11-28",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Manifesto",
+    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    },
    {
@@ -2305,11 +2290,6 @@
    {
     "artist": "Jiggy Zaza",
     "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Manifesto",
-    "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2435,7 +2415,7 @@
   ]
  },
  "The Continental Club": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Human Clay - Premiere Touring Creed Tribute Show",
@@ -2550,7 +2530,7 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Hometown Hoedown 18",
@@ -2615,6 +2595,16 @@
    {
     "artist": "Davey Allen w/ Cris Hodges",
     "date": "2027-02-04",
+    "venue": "The End"
+   },
+   {
+    "artist": "Closed Tear w/ Loverboyrando",
+    "date": "2027-02-25",
+    "venue": "The End"
+   },
+   {
+    "artist": "Beyond Creation and Decrepit Birth",
+    "date": "2027-02-26",
     "venue": "The End"
    },
    {
@@ -2705,7 +2695,7 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Stacey Steele",
@@ -2915,7 +2905,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
    {
     "artist": "Leanna Firestone",
@@ -3160,18 +3150,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "shows": [
-   {
-    "artist": "Diles Que No Me Maten",
-    "date": "2026-11-24",
-    "venue": "White Oak Music Hall"
-   },
-   {
-    "artist": "King of Drag: The Royal Tour",
-    "date": "2026-11-24",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "Kawaii Rave",
     "date": "2026-11-27",
@@ -3203,12 +3183,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Pi\u2019erre Bourne: Made In Paris",
+    "artist": "Bella White",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Bella White",
+    "artist": "Pi\u2019erre Bourne: Made In Paris",
     "date": "2026-12-06",
     "venue": "White Oak Music Hall"
    },
@@ -3228,12 +3208,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "twen + Mini Trees",
+    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
     "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Scott Bradlee\u2019s Postmodern Jukebox \u2013 The Future Is Vintage World Tour",
+    "artist": "twen + Mini Trees",
     "date": "2026-12-13",
     "venue": "White Oak Music Hall"
    },
@@ -3373,6 +3353,11 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "Heated Rivalry Night",
+    "date": "2027-02-27",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "Silversun Pickups: Tenterhooks Tour",
     "date": "2027-02-28",
     "venue": "White Oak Music Hall"
@@ -3453,12 +3438,12 @@
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Noah Rinker",
+    "artist": "Cursive",
     "date": "2027-03-25",
     "venue": "White Oak Music Hall"
    },
    {
-    "artist": "Cursive",
+    "artist": "Noah Rinker",
     "date": "2027-03-25",
     "venue": "White Oak Music Hall"
    },
@@ -3528,6 +3513,11 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "Wilco: Wilcoworld Tour 2027",
+    "date": "2027-04-23",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "Terrian \u2013 Mad Big World Tour",
     "date": "2027-04-24",
     "venue": "White Oak Music Hall"
@@ -3568,8 +3558,18 @@
     "venue": "White Oak Music Hall"
    },
    {
+    "artist": "Sam Barber: The Outlier World Tour",
+    "date": "2027-05-16",
+    "venue": "White Oak Music Hall"
+   },
+   {
     "artist": "Dillom",
     "date": "2027-05-22",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "MOSCA",
+    "date": "2027-05-25",
     "venue": "White Oak Music Hall"
    }
   ]
