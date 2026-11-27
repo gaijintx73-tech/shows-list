@@ -3,6 +3,11 @@
   "as_of": "2026-11-27",
   "shows": [
    {
+    "artist": "The John MBK Orchestra",
+    "date": "2026-11-27",
+    "venue": "1810 Ojeman"
+   },
+   {
     "artist": "Fever Dream w/ Nibiru, 8Bit Crush, Kidd Ruin, The Monochrome Suns",
     "date": "2026-11-28",
     "venue": "1810 Ojeman"
@@ -763,11 +768,6 @@
   "as_of": "2026-11-27",
   "shows": [
    {
-    "artist": "JunkBunny",
-    "date": "2026-11-27",
-    "venue": "Dosey Doe"
-   },
-   {
     "artist": "Adam Hawley Christmas Tour",
     "date": "2026-11-28",
     "venue": "Dosey Doe"
@@ -920,6 +920,11 @@
    {
     "artist": "Grady Spencer & The Vegabonds",
     "date": "2027-01-28",
+    "venue": "Dosey Doe"
+   },
+   {
+    "artist": "Angelia Walker",
+    "date": "2027-01-30",
     "venue": "Dosey Doe"
    },
    {
@@ -2175,7 +2180,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-27",
   "shows": [
    {
     "artist": "Yuri & Lucero",
@@ -2273,11 +2278,6 @@
     "venue": "Super Happy Fun Land"
    },
    {
-    "artist": "Jiggy Zaza",
-    "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
-   },
-   {
     "artist": "Manifesto",
     "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
@@ -2285,6 +2285,11 @@
    {
     "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
     "date": "2026-11-28",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
     "venue": "Super Happy Fun Land"
    }
   ]
@@ -2413,7 +2418,7 @@
   "as_of": "2026-11-27",
   "shows": [
    {
-    "artist": "Frog Hair - Spain Colored Orange -Houston Rock n' Roll Party",
+    "artist": "Frog Hair - Spain Colored Orange - Houston Rock n' Roll Party",
     "date": "2026-12-04",
     "venue": "The Continental Club"
    },
