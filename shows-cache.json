@@ -1,12 +1,7 @@
 {
  "1810 Ojeman": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "The John MBK Orchestra",
-    "date": "2026-11-27",
-    "venue": "1810 Ojeman"
-   },
    {
     "artist": "Fever Dream w/ Nibiru, 8Bit Crush, Kidd Ruin, The Monochrome Suns",
     "date": "2026-11-28",
@@ -20,7 +15,7 @@
   ]
  },
  "713 Music Hall": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
@@ -160,13 +155,8 @@
   ]
  },
  "Axelrad Beer Garden": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Main Stage",
-    "date": "2026-11-27",
-    "venue": "Axelrad"
-   },
    {
     "artist": "Glitch A Match: PowerPoint Pitch Your Single Friend \ud83c\udfae\u2728",
     "date": "2026-11-28",
@@ -180,13 +170,8 @@
   ]
  },
  "BFE Rock Club": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Rock En Espanol with Satri, Falsa Realidad, Super Pop, PoetiX",
-    "date": "2026-11-27",
-    "venue": "BFE Rock Club"
-   },
    {
     "artist": "Distance of Thought, Warhog, Eden-6.",
     "date": "2026-11-28",
@@ -220,13 +205,8 @@
   ]
  },
  "Bad Astronaut Brewing": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Punk Rock Garage Sale",
-    "date": "2026-11-27",
-    "venue": "Bad Astronaut Brewing"
-   },
    {
     "artist": "Houston Plant Market",
     "date": "2026-11-29",
@@ -330,7 +310,7 @@
   ]
  },
  "Bayou Music Center": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Trivium",
@@ -425,13 +405,8 @@
   ]
  },
  "DUCTWORK": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Deorro (18 and Over)",
-    "date": "2026-11-27",
-    "venue": "DUCTWORK"
-   },
    {
     "artist": "Deathpact (18 and Over)",
     "date": "2026-11-28",
@@ -510,13 +485,8 @@
   ]
  },
  "Dan Electro's Guitar Bar": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Moondogs the Last Waltz The Band Tribute show",
-    "date": "2026-11-27",
-    "venue": "Dan Electro's"
-   },
    {
     "artist": "Racket Debut at Dan Electros",
     "date": "2026-11-28",
@@ -765,7 +735,7 @@
   ]
  },
  "Dosey Doe Big Barn": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Adam Hawley Christmas Tour",
@@ -1050,13 +1020,8 @@
   ]
  },
  "House of Blues Houston": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Project Pat",
-    "date": "2026-11-27",
-    "venue": "House of Blues"
-   },
    {
     "artist": "R&B ONLY LIVE - Houston, TX",
     "date": "2026-11-28",
@@ -1435,13 +1400,8 @@
   ]
  },
  "Houston Arena Theatre": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "BXS",
-    "date": "2026-11-27",
-    "venue": "Houston Arena Theatre"
-   },
    {
     "artist": "King George & Cupid",
     "date": "2026-11-28",
@@ -1590,7 +1550,7 @@
   ]
  },
  "McGonigel's Mucky Duck": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Slaid Cleaves",
@@ -1764,11 +1724,6 @@
    },
    {
     "artist": "Fiddles at 4, Midnight at 6",
-    "date": "2026-12-31",
-    "venue": "McGonigel's Mucky Duck"
-   },
-   {
-    "artist": "Pat Byrne",
     "date": "2026-12-31",
     "venue": "McGonigel's Mucky Duck"
    },
@@ -2070,18 +2025,8 @@
   ]
  },
  "Numbers": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Classic Numbers Black Celebration!",
-    "date": "2026-11-27",
-    "venue": "Numbers"
-   },
-   {
-    "artist": "Classic Numbers EVERY Friday w/ Dj Wes Wallace",
-    "date": "2026-11-27",
-    "venue": "Numbers"
-   },
    {
     "artist": "80\u2019s Night!",
     "date": "2026-11-28",
@@ -2135,7 +2080,7 @@
   ]
  },
  "Rudyard's": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Blair Socci - Friday 7:30",
@@ -2160,7 +2105,7 @@
   ]
  },
  "Scout Bar": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Waterparks",
@@ -2180,7 +2125,7 @@
   ]
  },
  "Smart Financial Centre": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-23",
   "shows": [
    {
     "artist": "Yuri & Lucero",
@@ -2250,7 +2195,7 @@
   ]
  },
  "Stafford Centre": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Move Dance Family 6th Annual Nutcracker Production",
@@ -2270,8 +2215,28 @@
   ]
  },
  "Super Happy Fun Land": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
+   {
+    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
+    "date": "2026-11-28",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "SHFL Xmas Party",
+    "date": "2026-12-20",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Black Punk Black Friday Listening Party",
+    "date": "2026-12-11",
+    "venue": "Super Happy Fun Land"
+   },
+   {
+    "artist": "Jiggy Zaza",
+    "date": "2027-01-23",
+    "venue": "Super Happy Fun Land"
+   },
    {
     "artist": "Houston Krampus Krampage",
     "date": "2026-12-05",
@@ -2281,21 +2246,11 @@
     "artist": "Manifesto",
     "date": "2026-11-29",
     "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Dead Starr @okok_st6rr - 8PM, Demi Dangerous @demidangerous - 9PM, Yo Boi C-Dub @yo_boi_cw - 10PM, KrewMinor @krew_minor - 11PM w/ special guests (Nickyy Danger @nickyydanger & WYND @wynd.0)",
-    "date": "2026-11-28",
-    "venue": "Super Happy Fun Land"
-   },
-   {
-    "artist": "Jiggy Zaza",
-    "date": "2027-01-23",
-    "venue": "Super Happy Fun Land"
    }
   ]
  },
  "The Bronze Peacock": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Noodah05",
@@ -2415,7 +2370,7 @@
   ]
  },
  "The Continental Club": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Frog Hair - Spain Colored Orange - Houston Rock n' Roll Party",
@@ -2520,13 +2475,8 @@
   ]
  },
  "The End": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Hometown Hoedown 18",
-    "date": "2026-11-27",
-    "venue": "The End"
-   },
    {
     "artist": "COUNT34CULT w/ GHOST DATA, Heat Ray, Virtual Dave",
     "date": "2026-11-28",
@@ -2685,13 +2635,8 @@
   ]
  },
  "The Rustic (Post Oak)": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Chad Ware",
-    "date": "2026-11-27",
-    "venue": "The Rustic"
-   },
    {
     "artist": "Ryem The Duo",
     "date": "2026-11-28",
@@ -2885,7 +2830,7 @@
   ]
  },
  "The Secret Group": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "The Suffers with special guest Hasaan Olu",
@@ -2960,7 +2905,7 @@
   ]
  },
  "Toyota Center": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Disney Worlds Collide Concert Tour w/ Disney Descendant's: Zombies",
@@ -3095,7 +3040,7 @@
   ]
  },
  "Warehouse Live Midtown": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
    {
     "artist": "Svdden Death - Ages",
@@ -3115,13 +3060,8 @@
   ]
  },
  "White Oak Music Hall": {
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "shows": [
-   {
-    "artist": "Kawaii Rave",
-    "date": "2026-11-27",
-    "venue": "White Oak Music Hall"
-   },
    {
     "artist": "2000\u2019s Rave",
     "date": "2026-11-28",
@@ -3540,6 +3480,11 @@
    {
     "artist": "ENJAMBRE \u2013 2027 US / CANADA TOUR",
     "date": "2027-05-27",
+    "venue": "White Oak Music Hall"
+   },
+   {
+    "artist": "Two Door Cinema Club \u2013 Tourist History 15th Anniversary Tour",
+    "date": "2027-05-28",
     "venue": "White Oak Music Hall"
    }
   ]
